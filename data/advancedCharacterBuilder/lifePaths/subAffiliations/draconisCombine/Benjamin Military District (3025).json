@@ -42,6 +42,7 @@
     "requirementsFactions" : {
         "0" : [
             "CS",
+            "ROS",
             "WOB",
             "DC"
         ]
@@ -55,7 +56,7 @@
     "requirementsAttributes" : {
         "0" : { }
     },
-"requirementsEdge": {},
+    "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : {
         "0" : null
     },
@@ -83,7 +84,7 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
-"exclusionsEdge": {},
+    "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : {
         "0" : null
     },
@@ -102,7 +103,7 @@
     "fixedXPAttributes" : {
         "0" : { }
     },
-"fixedXPEdge": {},
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : {
         "0" : null
     },
@@ -130,8 +131,7 @@
         }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge": {
-},
+    "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

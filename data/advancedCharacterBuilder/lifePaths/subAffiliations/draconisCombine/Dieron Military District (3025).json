@@ -30,7 +30,7 @@
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3025,
-    "maximumYear" : 9999,
+    "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -41,8 +41,9 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-"CS",
-"WOB",
+            "CS",
+            "ROS",
+            "WOB",
             "DC"
         ]
     },
@@ -55,7 +56,7 @@
     "requirementsAttributes" : {
         "0" : { }
     },
-"requirementsEdge": {},
+    "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : {
         "0" : null
     },
@@ -83,7 +84,7 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
-"exclusionsEdge": {},
+    "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : {
         "0" : null
     },
@@ -105,7 +106,7 @@
             "WILLPOWER" : -50
         }
     },
-"fixedXPEdge": {},
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : {
         "0" : null
     },
@@ -134,7 +135,7 @@
         }
     },
     "flexibleXPAttributes" : { },
-    "flexibleXPEdge": { },
+    "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
