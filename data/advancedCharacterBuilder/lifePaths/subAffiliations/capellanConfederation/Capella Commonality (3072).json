@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "8e3ba663-0ca6-4118-857b-68c34b7461d1",
+    "id" : "5969a071-aba5-4f2d-8f63-e687eeb50e08",
     "version" : {
         "major" : 0,
         "minor" : 50,
@@ -24,13 +24,13 @@
         "extra" : ""
     },
     "xpCost" : 75,
-    "source" : "A Time of War",
-    "name" : "Capella Commonality (3063)",
-    "flavorText" : "I come from the Capella Commonality, heart of a Confederation reborn. Under Xin Sheng we live with vigilance and pride, bound in loyalty and renewed in the strength of our heritage.",
+    "source" : "Field Manual 3085",
+    "name" : "Capella Commonality (3072)",
+    "flavorText" : "I come from the Capella Commonality, heart of the Confederation. We have suffered and survived, bound by pride and loyalty to the Chancellor, for only in unity can we endure the enemies who surround us.",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3063,
-    "maximumYear" : 3071,
+    "minimumYear" : 3072,
+    "maximumYear" : 9999,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -43,6 +43,7 @@
         "0" : [
             "CC",
             "CS",
+            "ROS",
             "WOB"
         ]
     },
@@ -119,8 +120,7 @@
     },
     "fixedXPSkills" : {
         "0" : {
-            "Language/Any (RP Only)" : 5,
-            "Protocols/Any (RP Only)" : 5
+            "Negotiation" : 10
         }
     },
     "fixedXPMetaSkills" : {

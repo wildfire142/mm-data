@@ -16,21 +16,21 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "8e3ba663-0ca6-4118-857b-68c34b7461d1",
+    "id" : "ee9d1a01-7f27-44cb-b96a-554e24ab1017",
     "version" : {
         "major" : 0,
         "minor" : 50,
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 75,
-    "source" : "A Time of War",
-    "name" : "Capella Commonality (3063)",
-    "flavorText" : "I come from the Capella Commonality, heart of a Confederation reborn. Under Xin Sheng we live with vigilance and pride, bound in loyalty and renewed in the strength of our heritage.",
+    "xpCost" : 0,
+    "source" : "Field Manual 3085",
+    "name" : "Azami (3072)",
+    "flavorText" : "I come from the Azami Brotherhood, children of the desert and loyal to the Dragon. We keep our faith and our ways, yet in service and honor we prove our place within the Combine.",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3063,
-    "maximumYear" : 3071,
+    "minimumYear" : 3072,
+    "maximumYear" : 9999,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -41,9 +41,7 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CC",
-            "CS",
-            "WOB"
+            "AB"
         ]
     },
     "requirementsLifePath" : {
@@ -104,30 +102,37 @@
         "0" : { }
     },
     "fixedXPAttributes" : {
-        "0" : { }
+        "0" : {
+            "WILLPOWER" : 100
+        }
     },
     "fixedXPEdge" : {
-        "0" : 50
+        "0" : 0
     },
     "fixedXPFlexibleAttribute" : {
         "0" : null
     },
     "fixedXPTraits" : {
         "0" : {
-            "WEALTH" : 15
+            "WEALTH" : -50,
+            "EQUIPPED" : -50
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Language/Any (RP Only)" : 5,
-            "Protocols/Any (RP Only)" : 5
+            "Streetwise/Any (RP Only)" : 10,
+            "Animal Handling (RP Only)" : 5,
+            "Language/Any (RP Only)" : 15,
+            "Martial Arts (RP Only)" : 15
         }
     },
     "fixedXPMetaSkills" : {
         "0" : { }
     },
     "fixedXPAbilities" : {
-        "0" : { }
+        "0" : {
+            "compulsion_other_faction_dislike" : -50
+        }
     },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },

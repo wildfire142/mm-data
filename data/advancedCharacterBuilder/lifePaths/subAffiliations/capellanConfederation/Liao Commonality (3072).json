@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "8e3ba663-0ca6-4118-857b-68c34b7461d1",
+    "id" : "1f9543c7-789f-4e3e-9f18-f4bbfcfb31eb",
     "version" : {
         "major" : 0,
         "minor" : 50,
@@ -24,13 +24,13 @@
         "extra" : ""
     },
     "xpCost" : 75,
-    "source" : "A Time of War",
-    "name" : "Capella Commonality (3063)",
-    "flavorText" : "I come from the Capella Commonality, heart of a Confederation reborn. Under Xin Sheng we live with vigilance and pride, bound in loyalty and renewed in the strength of our heritage.",
+    "source" : "Field Manual 3085",
+    "name" : "Liao Commonality (3072)",
+    "flavorText" : "I come from the Liao Commonality, forged in hardship and bound by loyalty. We have given much and lost more, yet in our sacrifice we prove that the Confederation endures.",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3063,
-    "maximumYear" : 3071,
+    "minimumYear" : 3072,
+    "maximumYear" : 9999,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -43,6 +43,7 @@
         "0" : [
             "CC",
             "CS",
+            "ROS",
             "WOB"
         ]
     },
@@ -104,30 +105,34 @@
         "0" : { }
     },
     "fixedXPAttributes" : {
-        "0" : { }
+        "0" : {
+            "WILLPOWER" : 25,
+            "INTELLIGENCE" : 50
+        }
     },
     "fixedXPEdge" : {
-        "0" : 50
+        "0" : 0
     },
     "fixedXPFlexibleAttribute" : {
         "0" : null
     },
     "fixedXPTraits" : {
-        "0" : {
-            "WEALTH" : 15
-        }
+        "0" : { }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Language/Any (RP Only)" : 5,
-            "Protocols/Any (RP Only)" : 5
+            "Language/Any (RP Only)" : 15,
+            "Martial Arts (RP Only)" : 20
         }
     },
     "fixedXPMetaSkills" : {
         "0" : { }
     },
     "fixedXPAbilities" : {
-        "0" : { }
+        "0" : {
+            "atow_citizenship" : 15,
+            "compulsion_other_faction_hate" : -50
+        }
     },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
