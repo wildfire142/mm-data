@@ -492,6 +492,7 @@
         <simulateGrayMonday>false</simulateGrayMonday>
         <allowMonthlyReinvestment>false</allowMonthlyReinvestment>
         <allowMonthlyConnections>false</allowMonthlyConnections>
+        <useSmallArmsOnly>true</useSmallArmsOnly>
         <commonPartPriceMultiplier>1.0</commonPartPriceMultiplier>
         <innerSphereUnitPriceMultiplier>1.0</innerSphereUnitPriceMultiplier>
         <innerSpherePartPriceMultiplier>1.0</innerSpherePartPriceMultiplier>
