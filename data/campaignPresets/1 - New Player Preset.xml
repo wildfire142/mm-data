@@ -443,7 +443,9 @@
         <useClanPersonnelMarriages>true</useClanPersonnelMarriages>
         <usePrisonerMarriages>true</usePrisonerMarriages>
         <checkMutualAncestorsDepth>4</checkMutualAncestorsDepth>
-        <noInterestInMarriageDiceSize>10</noInterestInMarriageDiceSize>
+        <noInterestInRelationshipsDiceSize>100</noInterestInRelationshipsDiceSize>
+        <interestedInSameSexDiceSize>14</interestedInSameSexDiceSize>
+        <interestedInBothSexesDiceSize>33</interestedInBothSexesDiceSize>
         <logMarriageNameChanges>true</logMarriageNameChanges>
         <marriageSurnameWeights>
             <SPOUSE>55</SPOUSE>
@@ -465,7 +467,6 @@
         <useRandomPrisonerMarriages>false</useRandomPrisonerMarriages>
         <randomMarriageAgeRange>10</randomMarriageAgeRange>
         <randomMarriageDiceSize>5000</randomMarriageDiceSize>
-        <randomSameSexMarriageDiceSize>14</randomSameSexMarriageDiceSize>
         <randomNewDependentMarriage>20</randomNewDependentMarriage>
         <useManualDivorce>true</useManualDivorce>
         <useClanPersonnelDivorce>true</useClanPersonnelDivorce>
