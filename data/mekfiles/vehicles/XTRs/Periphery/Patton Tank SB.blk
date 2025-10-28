@@ -133,7 +133,7 @@ The Patton tank is a 65-ton armored combat vehicle, specializing in conventional
 </overview>
 
 <deployment>
-This version of the Patton was built with the intent of functioning in hostile environments like the vacuum of space. Environmental Sealing protects the crew from hostile environments. An XL fusion engine with Supercharger allows the Patton-SB to perform sprints of up to 86 km/h to reposition quickly. It retains the LRM-5, but replaces the other weaponry with a pair of ER medium lasers and a Silver Bullet Gauss Rifle with three tons of ammunition. The tank is protected by eleven and a half tons of Heavy Ferro-Fibrous armor. 
+This version of the Patton was built with the intent of functioning in hostile environments like the vacuum of space. Environmental Sealing protects the crew from hostile environments. An XL fusion engine with Supercharger allows the Patton-SB to perform sprints of up to 86 km/h to reposition quickly. It retains the LRM-5, but replaces the other weaponry with a pair of ER medium lasers and a Silver Bullet Gauss Rifle with three tons of ammunition. The tank is protected by eleven and a half tons of Heavy Ferro-Fibrous armor.
 </deployment>
 
 <history>
@@ -156,7 +156,7 @@ TARGETING:TharHes Mars5
 </systemManufacturers>
 
 <source>
-TRO: 3039
+TR:3039
 </source>
 
 <quirks>

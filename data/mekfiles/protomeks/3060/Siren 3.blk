@@ -110,7 +110,7 @@ CLSRM1
 </Legs Equipment>
 
 <source>
-TRO: 3060
+TR:3060
 </source>
 
 <tonnage>
@@ -126,7 +126,7 @@ The Siren ProtoMech was originally designed by Clan Smoke Jaguar to serve as a r
 </overview>
 
 <deployment>
-The second variant introduced during the 3060s, this variant was armed with a pair of SRM-1 Launchers, split between the Protomech's two arms, and a total of one hundred reloads. To fit the large weapons, the Siren's speed was reduced to 120 km/h. 
+The second variant introduced during the 3060s, this variant was armed with a pair of SRM-1 Launchers, split between the Protomech's two arms, and a total of one hundred reloads. To fit the large weapons, the Siren's speed was reduced to 120 km/h.
 </deployment>
 
 <history>

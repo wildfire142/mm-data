@@ -103,7 +103,7 @@ Autocannon/20
 </Turret Equipment>
 
 <source>
-TRO: 3039
+TR:3039
 </source>
 
 <tonnage>
@@ -119,7 +119,7 @@ Tall, squat, and using four treads, the Demolisher has a well-earned, though som
 </overview>
 
 <deployment>
-Armed as the Mk. 1 but with reduced armor to incorporate anti-infantry defensive weapons. 
+Armed as the Mk. 1 but with reduced armor to incorporate anti-infantry defensive weapons.
 </deployment>
 
 <history>

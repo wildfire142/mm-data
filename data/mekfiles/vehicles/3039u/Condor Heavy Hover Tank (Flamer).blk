@@ -101,7 +101,7 @@ Machine Gun
 </Turret Equipment>
 
 <source>
-TRO: 3039
+TR:3039
 </source>
 
 <tonnage>
@@ -117,7 +117,7 @@ A heavy cavalry unit designed for rapid reaction to a shifting battle, the Condo
 </overview>
 
 <deployment>
-This 3025 version of Condor changes the weapons array and adds armor. A vehicular Flamer is mounted fore and aft, each with a ton of ammunition. The turret contains a pair of Machine Guns and trio of medium lasers. 
+This 3025 version of Condor changes the weapons array and adds armor. A vehicular Flamer is mounted fore and aft, each with a ton of ammunition. The turret contains a pair of Machine Guns and trio of medium lasers.
 </deployment>
 
 <history>
@@ -149,7 +149,7 @@ A heavy cavalry unit designed for rapid reaction to a shifting battle, the Condo
 </overview>
 
 <deployment>
-This 3025 version of Condor changes the weapons array and adds armor. A vehicular Flamer is mounted fore and aft, each with a ton of ammunition. The turret contains a pair of Machine Guns and trio of medium lasers. 
+This 3025 version of Condor changes the weapons array and adds armor. A vehicular Flamer is mounted fore and aft, each with a ton of ammunition. The turret contains a pair of Machine Guns and trio of medium lasers.
 </deployment>
 
 <history>
@@ -181,7 +181,7 @@ A heavy cavalry unit designed for rapid reaction to a shifting battle, the Condo
 </overview>
 
 <deployment>
-This 3025 version of Condor changes the weapons array and adds armor. A vehicular Flamer is mounted fore and aft, each with a ton of ammunition. The turret contains a pair of Machine Guns and trio of medium lasers. 
+This 3025 version of Condor changes the weapons array and adds armor. A vehicular Flamer is mounted fore and aft, each with a ton of ammunition. The turret contains a pair of Machine Guns and trio of medium lasers.
 </deployment>
 
 <history>

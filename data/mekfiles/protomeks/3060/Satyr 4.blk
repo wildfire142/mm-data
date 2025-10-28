@@ -110,7 +110,7 @@ CLLightTAG
 </Legs Equipment>
 
 <source>
-TRO: 3060
+TR:3060
 </source>
 
 <tonnage>
@@ -122,11 +122,11 @@ Outfitted with relatively fast and electronic detection equipment. It also carri
 </capabilities>
 
 <overview>
-The Satyr ProtoMech was designed to serve as a deep raider and reconnaissance unit. 
+The Satyr ProtoMech was designed to serve as a deep raider and reconnaissance unit.
 </overview>
 
 <deployment>
-Developed during the Jihad, this design improves upon the intended spotter role with the addition of a Clan Light TAG. It is only armed with a torso mounted AP Gauss Rifle with ton of ammunition and boasts only a slight increase in armor protection compared to the original. 
+Developed during the Jihad, this design improves upon the intended spotter role with the addition of a Clan Light TAG. It is only armed with a torso mounted AP Gauss Rifle with ton of ammunition and boasts only a slight increase in armor protection compared to the original.
 </deployment>
 
 <history>

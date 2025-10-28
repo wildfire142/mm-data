@@ -115,7 +115,7 @@ CLMicroPulseLaser
 </Legs Equipment>
 
 <source>
-TRO: 3060
+TR:3060
 </source>
 
 <tonnage>
@@ -127,7 +127,7 @@ Outfitted with relatively fast and electronic detection equipment. It also carri
 </capabilities>
 
 <overview>
-The Satyr ProtoMech was designed to serve as a deep raider and reconnaissance unit. 
+The Satyr ProtoMech was designed to serve as a deep raider and reconnaissance unit.
 </overview>
 
 <deployment>

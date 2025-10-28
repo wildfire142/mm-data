@@ -109,7 +109,7 @@ CLLightMG
 </Legs Equipment>
 
 <source>
-TRO: 3060
+TR:3060
 </source>
 
 <tonnage>
@@ -125,7 +125,7 @@ The Harpy was the first ProtoMech ever created. Intended as a "proof-of-concept"
 </overview>
 
 <deployment>
-This upgraded version of the Harpy was first spotted during the Jihad. This speedy variant has slightly increased the ProtoMech's armor to its arms, head, and legs. It is armed with a Light Machine Gun with one ton of ammunition. To increase its top speed to 80 km/h, the jump jets were dropped. 
+This upgraded version of the Harpy was first spotted during the Jihad. This speedy variant has slightly increased the ProtoMech's armor to its arms, head, and legs. It is armed with a Light Machine Gun with one ton of ammunition. To increase its top speed to 80 km/h, the jump jets were dropped.
 </deployment>
 
 <history>

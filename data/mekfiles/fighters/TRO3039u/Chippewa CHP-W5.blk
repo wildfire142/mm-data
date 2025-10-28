@@ -130,7 +130,7 @@ IS Ammo SRM-6
 </Fuselage Equipment>
 
 <source>
-TRO: 3039
+TR:3039
 </source>
 
 <tonnage>
@@ -166,7 +166,7 @@ TARGETING:Rander TAS
 </systemManufacturers>
 
 <source>
-TRO: 3039
+TR:3039
 </source>
 
 <tonnage>

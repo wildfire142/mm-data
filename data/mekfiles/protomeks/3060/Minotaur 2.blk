@@ -113,7 +113,7 @@ CLLBXAC2
 </Main Gun Equipment>
 
 <source>
-TRO: 3060
+TR:3060
 </source>
 
 <tonnage>
@@ -125,7 +125,7 @@ Weighing more than any other ProtoMech, it trades speed for armor and weaponry. 
 </capabilities>
 
 <overview>
-The Minotaur is the "assault class" of the first generation ProtoMechs. 
+The Minotaur is the "assault class" of the first generation ProtoMechs.
 </overview>
 
 <deployment>

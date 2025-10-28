@@ -100,7 +100,7 @@ LRM 20
 </Turret Equipment>
 
 <source>
-TRO: 3039
+TR:3039
 </source>
 
 <tonnage>
@@ -116,7 +116,7 @@ The Pike is a direct-fire alternative to artillery.
 </overview>
 
 <deployment>
-This 2993 version replaces the three Autocannon/2s with two LRM-20s and three tons of ammunition. 
+This 2993 version replaces the three Autocannon/2s with two LRM-20s and three tons of ammunition.
 </deployment>
 
 <history>
@@ -147,7 +147,7 @@ The Pike is a direct-fire alternative to artillery.
 </overview>
 
 <deployment>
-This 2993 version replaces the three Autocannon/2s with two LRM-20s and three tons of ammunition. 
+This 2993 version replaces the three Autocannon/2s with two LRM-20s and three tons of ammunition.
 </deployment>
 
 <history>
@@ -178,7 +178,7 @@ The Pike is a direct-fire alternative to artillery.
 </overview>
 
 <deployment>
-This 2993 version replaces the three Autocannon/2s with two LRM-20s and three tons of ammunition. 
+This 2993 version replaces the three Autocannon/2s with two LRM-20s and three tons of ammunition.
 </deployment>
 
 <history>
@@ -209,7 +209,7 @@ The Pike is a direct-fire alternative to artillery.
 </overview>
 
 <deployment>
-This 2993 version replaces the three Autocannon/2s with two LRM-20s and three tons of ammunition. 
+This 2993 version replaces the three Autocannon/2s with two LRM-20s and three tons of ammunition.
 </deployment>
 
 <history>

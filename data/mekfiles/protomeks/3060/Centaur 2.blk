@@ -114,7 +114,7 @@ CLHeavySmallLaser
 </Main Gun Equipment>
 
 <source>
-TRO: 3060
+TR:3060
 </source>
 
 <tonnage>
@@ -130,7 +130,7 @@ The Centaur combines high speed, decent armor, and a varied weapons mix.
 </overview>
 
 <deployment>
-Developed during the 3060s, this variant utilizes then-newly developed Heavy Laser technology. With minor armor reduction, the ProtoMech is armed with an SRM-2 Launcher in torso. As its main gun, it holds a Heavy Small Laser. 
+Developed during the 3060s, this variant utilizes then-newly developed Heavy Laser technology. With minor armor reduction, the ProtoMech is armed with an SRM-2 Launcher in torso. As its main gun, it holds a Heavy Small Laser.
 </deployment>
 
 <history>

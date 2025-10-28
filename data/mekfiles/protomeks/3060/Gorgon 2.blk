@@ -116,7 +116,7 @@ CLMediumPulseLaser
 </Main Gun Equipment>
 
 <source>
-TRO: 3060
+TR:3060
 </source>
 
 <tonnage>
@@ -128,11 +128,11 @@ The Gorgon is also responsible for the practice of ProtoMechs carrying a "main g
 </capabilities>
 
 <overview>
-The Gorgon is a heavy fire support unit that often anchors ProtoMech Points. 
+The Gorgon is a heavy fire support unit that often anchors ProtoMech Points.
 </overview>
 
 <deployment>
-Developed in the 3060s, this variant is designed for close-quarters combat. The long-range weaponry is dropped, for additional armor, Jump Jets, and a Medium Pulse Laser. 
+Developed in the 3060s, this variant is designed for close-quarters combat. The long-range weaponry is dropped, for additional armor, Jump Jets, and a Medium Pulse Laser.
 </deployment>
 
 <history>

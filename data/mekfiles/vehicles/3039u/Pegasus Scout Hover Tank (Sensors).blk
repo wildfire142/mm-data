@@ -98,7 +98,7 @@ SRM 4
 </Turret Equipment>
 
 <source>
-TRO: 3039
+TR:3039
 </source>
 
 <tonnage>
@@ -114,7 +114,7 @@ The Pegasus first appeared as a low-cost recon unit during the First Succession 
 </overview>
 
 <deployment>
-This 2798 version replaces the SRM 6 racks with a pair of SRM-4 launchers. The freed space is occupied by a Remote Sensor Dispenser. 
+This 2798 version replaces the SRM 6 racks with a pair of SRM-4 launchers. The freed space is occupied by a Remote Sensor Dispenser.
 </deployment>
 
 <history>

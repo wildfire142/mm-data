@@ -94,7 +94,7 @@ Autocannon/10
 </Rear Equipment>
 
 <source>
-TRO: 3039
+TR:3039
 </source>
 
 <tonnage>
@@ -110,7 +110,7 @@ The Hetzer was designed as a cheap, self-propelled artillery-piece to be station
 </overview>
 
 <deployment>
-This field refit introduced in 2893 exchanges the autocannon for a smaller class 10 version with five tons of ammunition. The armor is also increased slightly. 
+This field refit introduced in 2893 exchanges the autocannon for a smaller class 10 version with five tons of ammunition. The armor is also increased slightly.
 </deployment>
 
 <history>

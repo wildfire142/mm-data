@@ -118,7 +118,7 @@ CLSRM6
 </Main Gun Equipment>
 
 <source>
-TRO: 3060
+TR:3060
 </source>
 
 <tonnage>
@@ -130,11 +130,11 @@ The Gorgon is also responsible for the practice of ProtoMechs carrying a "main g
 </capabilities>
 
 <overview>
-The Gorgon is a heavy fire support unit that often anchors ProtoMech Points. 
+The Gorgon is a heavy fire support unit that often anchors ProtoMech Points.
 </overview>
 
 <deployment>
-A Jihad era variant, this model utilized a torso-mounted AP Gauss Rifle with two tons of ammunition. Its torso was also fitted with an SRM-6 Launcher with one ton of reloads. It was given a half-set of jump jets and a rearrangement of its protection. 
+A Jihad era variant, this model utilized a torso-mounted AP Gauss Rifle with two tons of ammunition. Its torso was also fitted with an SRM-6 Launcher with one ton of reloads. It was given a half-set of jump jets and a rearrangement of its protection.
 </deployment>
 
 <history>

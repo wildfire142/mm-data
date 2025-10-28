@@ -109,7 +109,7 @@ CLAPGaussRifle
 </Legs Equipment>
 
 <source>
-TRO: 3060
+TR:3060
 </source>
 
 <tonnage>
@@ -125,7 +125,7 @@ The Siren ProtoMech was originally designed by Clan Smoke Jaguar to serve as a r
 </overview>
 
 <deployment>
-Slightly slower than Siren 4, this version of the Siren was armed with a single AP Gauss Rifle with one ton of ammunition. 
+Slightly slower than Siren 4, this version of the Siren was armed with a single AP Gauss Rifle with one ton of ammunition.
 </deployment>
 
 <history>

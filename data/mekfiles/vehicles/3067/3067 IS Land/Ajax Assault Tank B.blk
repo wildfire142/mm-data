@@ -131,7 +131,7 @@ The Ajax Assault Tank is an Omni-capable combat vehicle that is the followup to 
 </overview>
 
 <deployment>
-The third 3065 configuration makes the Ajax into a support unit with the inclusion of three LRM-15s that are slaved to an Artemis IV Fire Control System and a PPC. Six tons of ammunition rarely leave the missile launchers out of supply. A C3 computer makes this an effective command vehicle, allowing the Ajax B to coordinate the fire of a lance or company. 
+The third 3065 configuration makes the Ajax into a support unit with the inclusion of three LRM-15s that are slaved to an Artemis IV Fire Control System and a PPC. Six tons of ammunition rarely leave the missile launchers out of supply. A C3 computer makes this an effective command vehicle, allowing the Ajax B to coordinate the fire of a lance or company.
 </deployment>
 
 <history>
@@ -155,5 +155,5 @@ TARGETING:Sync Tracker (39-42071)
 </systemManufacturers>
 
 <source>
-TRO: 3067
+TR:3067
 </source>

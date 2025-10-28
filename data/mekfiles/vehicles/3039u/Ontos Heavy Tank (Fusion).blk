@@ -106,7 +106,7 @@ LRM 10
 </Turret Equipment>
 
 <source>
-TRO: 3039
+TR:3039
 </source>
 
 <tonnage>
@@ -122,7 +122,7 @@ The Ontos is designed for close combat where it can it massive array of lasers t
 </overview>
 
 <deployment>
-This 2863 variant takes a standard Ontos and installs a rare fusion engine. The armaments of this model are ten medium lasers and two LRM-10s with two tons of ammunition. Armor has also been added. 
+This 2863 variant takes a standard Ontos and installs a rare fusion engine. The armaments of this model are ten medium lasers and two LRM-10s with two tons of ammunition. Armor has also been added.
 </deployment>
 
 <history>
@@ -130,7 +130,7 @@ The original myth behind the Ontos was that a history loving designer based the 
 </history>
 
 <manufacturer>
-Kallon Weapons Industries, Refit	
+Kallon Weapons Industries, Refit
 </manufacturer>
 
 <primaryFactory>
@@ -145,7 +145,7 @@ TARGETING:GuideRite w/Laser Coordination Link
 </systemManufacturers>
 
 <source>
-TRO: 3039
+TR:3039
 </source>
 
 <fuelType>

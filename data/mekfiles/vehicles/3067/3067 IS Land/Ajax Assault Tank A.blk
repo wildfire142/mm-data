@@ -132,7 +132,7 @@ The Ajax Assault Tank is an Omni-capable combat vehicle that is the followup to 
 </overview>
 
 <deployment>
-This very popular configuration introduced in 3065 carries three rotary autocannon/5s, along with nine tons of ammunition. A Guardian ECM Suite provides protection against enemy electronics. An ER Small Laser is mounted in the turret along with the autocannons, though it is rarely of much use. As with the primary configuration, the Ajax A carries a C3 Slave. 
+This very popular configuration introduced in 3065 carries three rotary autocannon/5s, along with nine tons of ammunition. A Guardian ECM Suite provides protection against enemy electronics. An ER Small Laser is mounted in the turret along with the autocannons, though it is rarely of much use. As with the primary configuration, the Ajax A carries a C3 Slave.
 </deployment>
 
 <history>
@@ -156,5 +156,5 @@ TARGETING:Sync Tracker (39-42071)
 </systemManufacturers>
 
 <source>
-TRO: 3067
+TR:3067
 </source>

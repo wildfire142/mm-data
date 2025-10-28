@@ -114,7 +114,7 @@ CLLRM10
 </Main Gun Equipment>
 
 <source>
-TRO: 3060
+TR:3060
 </source>
 
 <tonnage>
@@ -126,11 +126,11 @@ The 65-rated fusion engine propels the ProtoMech to a cruising speed of 43 km/h 
 </capabilities>
 
 <overview>
-The Gorgon is a heavy fire support unit that often anchors ProtoMech Points. 
+The Gorgon is a heavy fire support unit that often anchors ProtoMech Points.
 </overview>
 
 <deployment>
-With a standard LRM-10 launcher and one ton of ammunition, the Gorgon can provide almost as much firepower as a Valkyrie. For close in work, the Gorgon mounts an ER Micro Laser. Usually a pilot will use this weapon to deter pursuit when heading back to reload the LRM launcher. 
+With a standard LRM-10 launcher and one ton of ammunition, the Gorgon can provide almost as much firepower as a Valkyrie. For close in work, the Gorgon mounts an ER Micro Laser. Usually a pilot will use this weapon to deter pursuit when heading back to reload the LRM launcher.
 </deployment>
 
 <history>

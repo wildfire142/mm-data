@@ -110,7 +110,7 @@ CLLightMG
 </Legs Equipment>
 
 <source>
-TRO: 3060
+TR:3060
 </source>
 
 <tonnage>
@@ -127,7 +127,7 @@ The Siren ProtoMech was originally designed by Clan Smoke Jaguar to serve as a r
 </overview>
 
 <deployment>
-As the Siren was intended to be a scout and observer, it only carries a Light Machine Gun in either arm, each supplied with just 50kg of ammunition. 
+As the Siren was intended to be a scout and observer, it only carries a Light Machine Gun in either arm, each supplied with just 50kg of ammunition.
 </deployment>
 
 <history>

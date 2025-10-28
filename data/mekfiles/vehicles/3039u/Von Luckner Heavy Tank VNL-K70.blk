@@ -103,7 +103,7 @@ Machine Gun
 </Turret Equipment>
 
 <source>
-TRO: 3039
+TR:3039
 </source>
 
 <tonnage>
@@ -119,7 +119,7 @@ This heavily armored and armed vehicle was intended as a BattleMech without legs
 </overview>
 
 <deployment>
-This 3008 variant of the Von Luckner is more independent of ammunition. A PPC is added to the turret. The main gun had to be downgraded to an Autocannon/10 with two of tons ammo. Both SRM-6s had to be removed in order to make these changes possible. 
+This 3008 variant of the Von Luckner is more independent of ammunition. A PPC is added to the turret. The main gun had to be downgraded to an Autocannon/10 with two of tons ammo. Both SRM-6s had to be removed in order to make these changes possible.
 </deployment>
 
 <history>

@@ -117,7 +117,7 @@ CLERMediumLaser
 </Main Gun Equipment>
 
 <source>
-TRO: 3060
+TR:3060
 </source>
 
 <tonnage>
@@ -126,7 +126,7 @@ TRO: 3060
 
 
 <capabilities>
-By the time it was created, the engineers and technicians had enough feedback from the other units to find a good balance of armor, weaponry, and speed. It proved to be very popular with pilots, and formed the backbone of many ProtoMech Points and Stars. In a sense a "super-Elemental". It can also maintain a cruising speed of 54 km/h and carries sufficient armoring to survive a direct PPC hit to the chest. 
+By the time it was created, the engineers and technicians had enough feedback from the other units to find a good balance of armor, weaponry, and speed. It proved to be very popular with pilots, and formed the backbone of many ProtoMech Points and Stars. In a sense a "super-Elemental". It can also maintain a cruising speed of 54 km/h and carries sufficient armoring to survive a direct PPC hit to the chest.
 </capabilities>
 
 
@@ -135,7 +135,7 @@ The Roc is considered one of the best of the first generation ProtoMechs, and mo
 </overview>
 
 <deployment>
-A Roc carries a single ER Medium Laser and is equipped with sufficient Jump Jets to leap 150 meters at a time. 
+A Roc carries a single ER Medium Laser and is equipped with sufficient Jump Jets to leap 150 meters at a time.
 </deployment>
 
 <history>

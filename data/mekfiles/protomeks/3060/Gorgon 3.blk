@@ -110,7 +110,7 @@ CLSRM4
 </Legs Equipment>
 
 <source>
-TRO: 3060
+TR:3060
 </source>
 
 <tonnage>
@@ -122,7 +122,7 @@ The Gorgon is also responsible for the practice of ProtoMechs carrying a "main g
 </capabilities>
 
 <overview>
-The Gorgon is a heavy fire support unit that often anchors ProtoMech Points. 
+The Gorgon is a heavy fire support unit that often anchors ProtoMech Points.
 </overview>
 
 <deployment>

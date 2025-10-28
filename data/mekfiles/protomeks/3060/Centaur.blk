@@ -116,7 +116,7 @@ CLERMicroLaser
 </Main Gun Equipment>
 
 <source>
-TRO: 3060
+TR:3060
 </source>
 
 <tonnage>
@@ -132,7 +132,7 @@ The Centaur combines high speed, decent armor, and a varied weapons mix.
 </overview>
 
 <deployment>
-The SRM and LRM missile launchers provide much of the striking power of the Centaur, which then uses the ER Micro Laser to finish off opponents who have been damaged by the missile racks. The only drawback to the Centaur's weaponry is the lack of reloads for the missile systems. With just ten reloads for the SRM-2s and only eight for the LRM rack, a Centaur pilot can rapidly deplete his ammunition stocks. 
+The SRM and LRM missile launchers provide much of the striking power of the Centaur, which then uses the ER Micro Laser to finish off opponents who have been damaged by the missile racks. The only drawback to the Centaur's weaponry is the lack of reloads for the missile systems. With just ten reloads for the SRM-2s and only eight for the LRM rack, a Centaur pilot can rapidly deplete his ammunition stocks.
 </deployment>
 
 <history>

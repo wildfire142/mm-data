@@ -114,7 +114,7 @@ CLLRM6
 </Legs Equipment>
 
 <source>
-TRO: 3060
+TR:3060
 </source>
 
 <tonnage>
@@ -130,7 +130,7 @@ Intended to serve as a medium assault unit, the Hydra carries heavy armor and a 
 </overview>
 
 <deployment>
-A 3067 design, this variant was designed as a fire support ProtoMech. It is solely armed with a single torso-mounted LRM-6 Launcher. Hydra 3 was given increase of speed to 80 km/h and full set of Jump Jets. 
+A 3067 design, this variant was designed as a fire support ProtoMech. It is solely armed with a single torso-mounted LRM-6 Launcher. Hydra 3 was given increase of speed to 80 km/h and full set of Jump Jets.
 </deployment>
 
 <history>
