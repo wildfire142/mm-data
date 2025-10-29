@@ -84,7 +84,7 @@ Striker
 Hover
 </motion_type>
 <source>
-TRO: 3058
+TR:3058U
 </source>
 
 <capabilities>
@@ -97,7 +97,7 @@ While many infantry transports have been popular, none have reached the iconic s
 </overview>
 
 <deployment>
-Based on the Infantry Variant this Maxim variant has twin C3 master computers and a Guardian ECM suite. The armor and weaponry remain identical to the Infantry variant. 
+Based on the Infantry Variant this Maxim variant has twin C3 master computers and a Guardian ECM suite. The armor and weaponry remain identical to the Infantry variant.
 </deployment>
 
 <history>

@@ -85,7 +85,7 @@ Striker
 Hover
 </motion_type>
 <source>
-TRO: 3058
+TR:3058U
 </source>
 
 <capabilities>
@@ -97,7 +97,7 @@ The Pegasus first appeared as a low-cost recon unit during the First Succession 
 </overview>
 
 <deployment>
-After the Truce of Tukayyid, the DCMS began an upgrade of the Pegasus hovertank. The newer model, produced by Scarborough Manufacturers of Al Na'ir, replaces the internal combustion engine with a 140-rated fusion engine and the weapons array with twin Valiant Pilum SRM-6 racks and Victory Heartbeat medium pulse laser. It also adds a new communications system Scarborough Talky 3 with Guardian ECM, a TAG system, and a Beagle active probe. This gives the new Pegasus a faster speed of 151.2 km/h, increases its firepower, and adds electronic warfare capabilities. 
+After the Truce of Tukayyid, the DCMS began an upgrade of the Pegasus hovertank. The newer model, produced by Scarborough Manufacturers of Al Na'ir, replaces the internal combustion engine with a 140-rated fusion engine and the weapons array with twin Valiant Pilum SRM-6 racks and Victory Heartbeat medium pulse laser. It also adds a new communications system Scarborough Talky 3 with Guardian ECM, a TAG system, and a Beagle active probe. This gives the new Pegasus a faster speed of 151.2 km/h, increases its firepower, and adds electronic warfare capabilities.
 </deployment>
 
 <history>

@@ -96,7 +96,7 @@ Striker
 Hover
 </motion_type>
 <source>
-TRO: 3058
+TR:3058U
 </source>
 
 <capabilities>
@@ -109,7 +109,7 @@ While many infantry transports have been popular, none have reached the iconic s
 </overview>
 
 <deployment>
-Designed by engineers at the manufacturing plants, this Maxim variant can carry a squad of battle armor-equipped infantry into combat. To compensate for the larger infantry bay the designers had to remove the TAG system. 
+Designed by engineers at the manufacturing plants, this Maxim variant can carry a squad of battle armor-equipped infantry into combat. To compensate for the larger infantry bay the designers had to remove the TAG system.
 </deployment>
 
 <history>

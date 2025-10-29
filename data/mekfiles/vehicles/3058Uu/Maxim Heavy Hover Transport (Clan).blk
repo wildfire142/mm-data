@@ -125,7 +125,7 @@ CLStreakSRM6
 </Turret Equipment>
 
 <source>
-TRO: 3058
+TR:3058U
 </source>
 
 <tonnage>
@@ -137,7 +137,7 @@ PETROCHEMICALS
 </fuelType>
 
 <source>
-TRO: 3058
+TR:3058U
 </source>
 
 <capabilities>
@@ -150,7 +150,7 @@ While many infantry transports have been popular, none have reached the iconic s
 </overview>
 
 <deployment>
-Retrofitted with Clan technology, the Maxim-C utilities a lighter missile systems to free up weight for a larger array of weapons and a 6 ton infantry bay. A front-mounted LRM-15 provides adequate long range firepower, while side-mounted SRM-2s, and a turret-mounted Streak SRM-6 partnered with twin machine guns provides close range support. While it does not utilize the ferro-fibrous armor seen in updated IS versions of the Maxim, its seven tons of standard armor provides similar levels of protection, augmented by the use of an ECM Suite and CASE. 
+Retrofitted with Clan technology, the Maxim-C utilities a lighter missile systems to free up weight for a larger array of weapons and a 6 ton infantry bay. A front-mounted LRM-15 provides adequate long range firepower, while side-mounted SRM-2s, and a turret-mounted Streak SRM-6 partnered with twin machine guns provides close range support. While it does not utilize the ferro-fibrous armor seen in updated IS versions of the Maxim, its seven tons of standard armor provides similar levels of protection, augmented by the use of an ECM Suite and CASE.
 </deployment>
 
 <history>

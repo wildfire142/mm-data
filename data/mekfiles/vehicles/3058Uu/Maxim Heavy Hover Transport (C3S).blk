@@ -95,7 +95,7 @@ Striker
 Hover
 </motion_type>
 <source>
-TRO: 3058
+TR:3058U
 </source>
 
 <capabilities>
@@ -108,7 +108,7 @@ While many infantry transports have been popular, none have reached the iconic s
 </overview>
 
 <deployment>
-This version is used in conjunction with the Maxim C3 Master. Removing the machine guns and ammunition, it expands the infantry bay to four tons, allowing it to carry a squad of battle armor. It also carries a C3 slave and keeps the TAG system. 
+This version is used in conjunction with the Maxim C3 Master. Removing the machine guns and ammunition, it expands the infantry bay to four tons, allowing it to carry a squad of battle armor. It also carries a C3 slave and keeps the TAG system.
 </deployment>
 
 <history>

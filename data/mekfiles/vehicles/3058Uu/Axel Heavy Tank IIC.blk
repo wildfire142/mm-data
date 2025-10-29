@@ -113,7 +113,7 @@ CLArtemisIV
 </Turret Equipment>
 
 <source>
-TRO: 3058
+TR:3058U
 </source>
 
 <tonnage>
@@ -129,7 +129,7 @@ The Axel series of heavy tanks are based on the popular Rommel design, but uses 
 </overview>
 
 <deployment>
-Created during the Jihad, this version of the Axel uses a fusion engine to reach a top speed of 64 km/h. The weaponry has been completely replaced with Clan equipment. The weapons include an AP Gauss Rifle, Large Pulse Laser, and two LRM-15 missile launchers equipped with Artemis IV fire control systems. The tank is protected by an ECM Suite, CASE and eleven and a half tons of ferro-fibrous armor. 
+Created during the Jihad, this version of the Axel uses a fusion engine to reach a top speed of 64 km/h. The weaponry has been completely replaced with Clan equipment. The weapons include an AP Gauss Rifle, Large Pulse Laser, and two LRM-15 missile launchers equipped with Artemis IV fire control systems. The tank is protected by an ECM Suite, CASE and eleven and a half tons of ferro-fibrous armor.
 </deployment>
 
 <history>

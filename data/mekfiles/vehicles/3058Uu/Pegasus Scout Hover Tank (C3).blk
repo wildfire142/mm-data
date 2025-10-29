@@ -83,7 +83,7 @@ Hover
 </motion_type>
 
 <source>
-TRO: 3058
+TR:3058U
 </source>
 
 <capabilities>
@@ -95,7 +95,7 @@ The Pegasus first appeared as a low-cost recon unit during the First Succession 
 </overview>
 
 <deployment>
-This version mounts more armor than the typical 3058 upgrade version, and carries a pair of Medium Pulse Lasers and Streak SRM-4 launchers in the turret. Room for all this weaponry comes at the expense of the electronics equipment mounted in the typical 3058 Pegasus. This version does, however, include a C3 slave in the tank's hull which allows it to share targeting data with friendly units. 
+This version mounts more armor than the typical 3058 upgrade version, and carries a pair of Medium Pulse Lasers and Streak SRM-4 launchers in the turret. Room for all this weaponry comes at the expense of the electronics equipment mounted in the typical 3058 Pegasus. This version does, however, include a C3 slave in the tank's hull which allows it to share targeting data with friendly units.
 </deployment>
 
 <history>
