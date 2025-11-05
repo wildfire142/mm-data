@@ -1695,7 +1695,7 @@ If Advanced Medical is disabled the character gains a single Hit, instead of the
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-500</xpCost>
-        <originOnly>false</originOnly>
+        <originOnly>true</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1708,7 +1708,7 @@ If Advanced Medical is disabled the character suffers 1 Hit, instead of the Inju
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-400</xpCost>
-        <originOnly>false</originOnly>
+        <originOnly>true</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1723,7 +1723,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-400</xpCost>
-        <originOnly>false</originOnly>
+        <originOnly>true</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1736,7 +1736,7 @@ If Advanced Medical is disabled 1-2 Hits are inflicted, instead of Injuries.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-500</xpCost>
-        <originOnly>false</originOnly>
+        <originOnly>true</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
