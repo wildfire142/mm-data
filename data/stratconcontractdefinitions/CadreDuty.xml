@@ -31,10 +31,10 @@
         <scenarioOdds>10</scenarioOdds>
     </scenarioOdds>
     <deploymentTimes>
-        <deploymentTimes>0</deploymentTimes>
-        <deploymentTimes>1</deploymentTimes>
-        <deploymentTimes>2</deploymentTimes>
         <deploymentTimes>3</deploymentTimes>
+        <deploymentTimes>4</deploymentTimes>
+        <deploymentTimes>4</deploymentTimes>
+        <deploymentTimes>5</deploymentTimes>
     </deploymentTimes>
     <objectiveParameters>
         <objectiveParameter>
