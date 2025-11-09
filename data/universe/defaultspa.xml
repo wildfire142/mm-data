@@ -823,7 +823,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <displayName>Impatient (ATOW)</displayName>
         <desc><![CDATA[The Target Number of any complex skill is increased by 1.
 
-The following skills are affectedActing, Appraisal, Art/Any, Computers, Cryptography, Demolitions, Escape Artist, Interest/Any, Interrogation, Investigation, Negotiation, Protocols/Any, Science/Any, Security Systems/Any, Strategy, Streetwise/Any, Surgery/Any, Survival/Any, Tactics/Any, Tech/Any, Mechanics, and Training.]]></desc>
+The following skills are affected: Acting, Appraisal, Art/Any, Computers, Cryptography, Demolitions, Escape Artist, Interest/Any, Interrogation, Investigation, Negotiation, Protocols/Any, Science/Any, Security Systems/Any, Strategy, Streetwise/Any, Surgery/Any, Survival/Any, Tactics/Any, Tech/Any, Mechanics, and Training.]]></desc>
         <xpCost>-100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
@@ -835,7 +835,7 @@ The following skills are affectedActing, Appraisal, Art/Any, Computers, Cryptogr
         <displayName>Patient (ATOW:Companion)</displayName>
         <desc><![CDATA[The Target Number of any complex skill is decreased by 1.
 
-The following skills are affectedActing, Appraisal, Art/Any, Computers, Cryptography, Demolitions, Escape Artist, Interest/Any, Interrogation, Investigation, Negotiation, Protocols/Any, Science/Any, Security Systems/Any, Strategy, Streetwise/Any, Surgery/Any, Survival/Any, Tactics/Any, Tech/Any, Mechanics, and Training.]]></desc>
+The following skills are affected: Acting, Appraisal, Art/Any, Computers, Cryptography, Demolitions, Escape Artist, Interest/Any, Interrogation, Investigation, Negotiation, Protocols/Any, Science/Any, Security Systems/Any, Strategy, Streetwise/Any, Surgery/Any, Survival/Any, Tactics/Any, Tech/Any, Mechanics, and Training.]]></desc>
         <xpCost>100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
