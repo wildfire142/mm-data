@@ -1602,6 +1602,16 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
+        <invalidAbilities>compulsion_body_mod_addition</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>unofficial_biological_machinist</lookupName>
+        <displayName>Biological Machinist (Unofficial)</displayName>
+        <desc><![CDATA[Decreases the target number of all prosthetic surgeries by 2 (excludes cosmetic surgery). This only has an effect if Advanced Medical's alternative mode is enabled.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
     </ability>
     <ability>
         <lookupName>compulsion_pathologic_racism</lookupName>
@@ -1637,6 +1647,20 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
+    </ability>
+    <ability>
+        <lookupName>compulsion_body_mod_addition</lookupName>
+        <displayName>Significant Compulsion - Body Modding (ATOW)</displayName>
+        <desc><![CDATA[Loyalty is reduced by 2 while this character has no prosthetics.
+
+This Flaw has no effect if Advanced Medical's alt mode is disabled.
+
+While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
+        <xpCost>-200</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>compulsion_bionic_hate</invalidAbilities>
     </ability>
     <ability>
         <lookupName>madness_flashbacks</lookupName>
