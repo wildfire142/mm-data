@@ -29,11 +29,8 @@
         <educationLevelMin>High School</educationLevelMin>
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
-        <qualification>Medical Technician</qualification>
-        <curriculum>Doctor, Administration</curriculum>
-        <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -53,10 +50,10 @@
         <educationLevelMax>Doctorate</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Teaching Graduate</qualification>
-        <curriculum>Leadership</curriculum>
+        <curriculum>Training, Science/Psychology</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -142,16 +139,16 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>DropShip Crew Graduate</qualification>
-        <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration, Administration</curriculum>
+        <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>JumpShip Crew Graduate</qualification>
-        <curriculum>Piloting/Spacecraft, Hyperspace Navigation, Tech/Vessel, Administration, Administration</curriculum>
+        <curriculum>Piloting/Spacecraft, Hyperspace Navigation, Tech/Vessel, Administration</curriculum>
         <qualificationStartYear>2470</qualificationStartYear>
         <qualification>WarShip Crew Graduate</qualification>
-        <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration, Administration</curriculum>
+        <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration</curriculum>
         <qualificationStartYear>2470</qualificationStartYear>
         <baseAcademicSkillLevel>-1</baseAcademicSkillLevel>
     </academy>
@@ -159,7 +156,7 @@
         <name>Aitutaki Academy</name>
         <type>Military Academy</type>
         <isMilitary>true</isMilitary>
-        <description>Founded in 2414 by Hered Selaj, Aitutaki Military Academy has been a center of anti-Marik sentiment. The academy emphasizes physical training and survival skills in the first year, followed by advanced MekWarriorand Cavalry training. The aerospace program was discontinued after fatal accidents. Strict traditions and combat trials among cadets, scrutinized by the LCCC, define the school's atmosphere.</description>
+        <description>Founded in 2414 by Hered Selaj, Aitutaki Military Academy has been a center of anti-Marik sentiment. The academy emphasizes physical training and survival skills in the first year, followed by advanced MekWarrior and Cavalry training. The aerospace program was discontinued after fatal accidents. Strict traditions and combat trials among cadets, scrutinized by the LCCC, define the school's atmosphere.</description>
         <factionDiscount>0</factionDiscount>
         <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>Aitutaki</locationSystem>
@@ -205,35 +202,6 @@
         <baseAcademicSkillLevel>-1</baseAcademicSkillLevel>
     </academy>
     <academy>
-        <name>Aitutaki Academy</name>
-        <type>Military Academy</type>
-        <isMilitary>true</isMilitary>
-        <description>Founded in 2414 by Hered Selaj, Aitutaki Military Academy has been a center of anti-Marik sentiment. The academy emphasizes physical training and survival skills in the first year, followed by advanced MekWarrior and Cavalry training. The aerospace program was discontinued after fatal accidents. Strict traditions and combat trials among cadets, scrutinized by the LCCC, define the school's atmosphere.</description>
-        <factionDiscount>0</factionDiscount>
-        <isFactionRestricted>true</isFactionRestricted>
-        <locationSystem>Aitutaki</locationSystem>
-        <constructionYear>2414</constructionYear>
-        <tuition>4375</tuition>
-        <durationDays>600</durationDays>
-        <facultySkill>6</facultySkill>
-        <educationLevelMin>College</educationLevelMin>
-        <educationLevelMax>College</educationLevelMax>
-        <ageMin>16</ageMin>
-        <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek</curriculum>
-        <qualificationStartYear>2500</qualificationStartYear>
-        <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
-        <qualificationStartYear>3052</qualificationStartYear>
-        <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek</curriculum>
-        <qualificationStartYear>2300</qualificationStartYear>
-        <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
-        <qualificationStartYear>2490</qualificationStartYear>
-        <baseAcademicSkillLevel>-1</baseAcademicSkillLevel>
-    </academy>
-    <academy>
         <name>Aitutaki Academy (Officer)</name>
         <type>Officer Academy</type>
         <isMilitary>true</isMilitary>
@@ -267,6 +235,8 @@
         <type>Military Academy</type>
         <isMilitary>true</isMilitary>
         <description>The Alarion Naval Academy, established to meet the Lyran Alliance's need for WarShip crew training, complements existing aerospace academies. It quickly became crucial for naval training in the Inner Sphere, offering rigorous programs for DropShip, JumpShip, and WarShip crews, incorporating both basic and specialized studies.</description>
+        <factionDiscount>0</factionDiscount>
+        <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>Alarion</locationSystem>
         <constructionYear>3060</constructionYear>
         <destructionYear>3069</destructionYear>
@@ -277,7 +247,7 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>DropShip Crew Graduate</qualification>
         <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration, Administration</curriculum>
@@ -436,22 +406,22 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3058</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -460,6 +430,8 @@
         <type>Military Academy</type>
         <isMilitary>true</isMilitary>
         <description>The Allison MechWarrior Institute stands as a premier training facility for MekWarriors, adjacent to the Lloyd Marik-Stanley Aerospace School. Producing 375 MekWarrior graduates annually, the institute fosters a spirited rivalry with neighboring aerospace cadets, characterized by athletic contests and pranks that occasionally escalate into conflicts. Admission is highly competitive, influenced by political considerations, with a portion of spots reserved for families of Dispossessed MekWarriors to uphold loyalty.</description>
+        <factionDiscount>0</factionDiscount>
+        <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>New Olympia</locationSystem>
         <constructionYear>2465</constructionYear>
         <tuition>5250</tuition>
@@ -478,6 +450,8 @@
         <type>Officer Academy</type>
         <isMilitary>true</isMilitary>
         <description>The Allison MechWarrior Institute stands as a premier training facility for MekWarriors, adjacent to the Lloyd Marik-Stanley Aerospace School. Producing 375 MekWarrior graduates annually, the institute fosters a spirited rivalry with neighboring aerospace cadets, characterized by athletic contests and pranks that occasionally escalate into conflicts. Admission is highly competitive, influenced by political considerations, with a portion of spots reserved for families of Dispossessed MekWarriors to uphold loyalty.</description>
+        <factionDiscount>0</factionDiscount>
+        <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>New Olympia</locationSystem>
         <constructionYear>2465</constructionYear>
         <tuition>13125</tuition>
@@ -510,9 +484,6 @@
         <qualification>MekWarrior Graduate</qualification>
         <curriculum>Piloting/Mek, Gunnery/Mek</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
-        <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
-        <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
         <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
@@ -537,9 +508,6 @@
         <qualification>MekWarrior Command Graduate</qualification>
         <curriculum>Piloting/Mek, Gunnery/Mek, Tactics, Strategy, Leadership</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
-        <qualification>Armored Infantry Command Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek, Tactics, Strategy, Leadership</curriculum>
-        <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Aerospace Command Graduate</qualification>
         <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Tactics, Strategy, Leadership</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
@@ -738,25 +706,25 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -843,7 +811,7 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>DropShip Crew Graduate</qualification>
         <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration, Administration</curriculum>
@@ -877,7 +845,7 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>DropShip Crew Graduate</qualification>
         <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration, Administration</curriculum>
@@ -954,25 +922,22 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
-        <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
-        <qualificationStartYear>3058</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>BattleMek Technician</qualification>
         <curriculum>Tech/Mek, Administration</curriculum>
@@ -1057,6 +1022,7 @@
         <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>Canopus IV</locationSystem>
         <constructionYear>3058</constructionYear>
+        <destructionYear>3071</destructionYear>
         <tuition>13125</tuition>
         <durationDays>1200</durationDays>
         <facultySkill>5</facultySkill>
@@ -1133,28 +1099,28 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>DropShip Crew Graduate</qualification>
         <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration, Administration</curriculum>
@@ -1280,7 +1246,7 @@
         <curriculum>Doctor, Administration</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -1289,6 +1255,8 @@
         <type>Military Academy</type>
         <isMilitary>true</isMilitary>
         <description>Built in 2331, the Combat College was the first military academy on a foreign world. It prided itself on being equal to any academy on Terra. To prove their worth, the graduating warrior and pilot class always challenged the Sandhurst graduates to a military contest.</description>
+        <factionDiscount>0</factionDiscount>
+        <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>New Earth (Tau Ceti 2116-)</locationSystem>
         <constructionYear>2331</constructionYear>
         <tuition>9625</tuition>
@@ -1322,6 +1290,8 @@
         <type>Officer Academy</type>
         <isMilitary>true</isMilitary>
         <description>Built in 2331, the Combat College was the first military academy on a foreign world. It prided itself on being equal to any academy on Terra. To prove their worth, the graduating warrior and pilot class always challenged the Sandhurst graduates to a military contest.</description>
+        <factionDiscount>0</factionDiscount>
+        <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>New Earth (Tau Ceti 2116-)</locationSystem>
         <constructionYear>2331</constructionYear>
         <tuition>17500</tuition>
@@ -1366,19 +1336,19 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -1410,6 +1380,8 @@
         <type>Officer Academy</type>
         <isMilitary>true</isMilitary>
         <description>The Coventry Academy, located in Dunnigan near Port Lawrence on Coventry, is a military academy close to the Coventry Metal Works plant. Many professors at the Academy also work at the CMW plant. Due to its close ties to CMW, it has been described as a glorified cadre for the manufacturer, with graduates often requiring additional training on equipment from other manufacturers.</description>
+        <factionDiscount>0</factionDiscount>
+        <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>Coventry</locationSystem>
         <constructionYear>2700</constructionYear>
         <destructionYear>3058</destructionYear>
@@ -1427,7 +1399,7 @@
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
     <academy>
-        <name>Coventry Military Academy</name>
+        <name>Coventry Military Academy [3060]</name>
         <type>Military Academy</type>
         <isMilitary>true</isMilitary>
         <description>Originally focused solely on training MekWarriors, its ties to Coventry Metal Works drew criticism, but it persisted as a crucial training ground. During the Clan Invasion, cadets and instructors valiantly defended against Clan Jade Falcon, sacrificing parts of the academy to protect Coventry. Reborn as the Coventry Military Academy in 3060 under Lyran Alliance patronage, it flourishes with modern facilities and OmniMek training.</description>
@@ -1450,7 +1422,7 @@
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
     <academy>
-        <name>Coventry Military Academy (Officer)</name>
+        <name>Coventry Military Academy (Officer) [3060]</name>
         <type>Officer Academy</type>
         <isMilitary>true</isMilitary>
         <description>Originally focused solely on training MekWarriors, its ties to Coventry Metal Works drew criticism, but it persisted as a crucial training ground. During the Clan Invasion, cadets and instructors valiantly defended against Clan Jade Falcon, sacrificing parts of the academy to protect Coventry. Reborn as the Coventry Military Academy in 3060 under Lyran Alliance patronage, it flourishes with modern facilities and OmniMek training.</description>
@@ -1707,25 +1679,25 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -1821,28 +1793,28 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -1863,7 +1835,7 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>DropShip Crew Graduate</qualification>
         <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration, Administration</curriculum>
@@ -1934,7 +1906,7 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>DropShip Crew Graduate</qualification>
         <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration, Administration</curriculum>
@@ -1993,6 +1965,8 @@
         <type>Military Academy</type>
         <isMilitary>true</isMilitary>
         <description>The Flight Academy of Graham is one of the few schools dedicated solely to training aerospace pilots and one of the few orbiting space academies. Over 2,000 pilots graduate from the academy every year.</description>
+        <factionDiscount>0</factionDiscount>
+        <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>Graham IV</locationSystem>
         <destructionYear>2767</destructionYear>
         <tuition>8750</tuition>
@@ -2002,7 +1976,7 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>DropShip Crew Graduate</qualification>
         <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration, Administration</curriculum>
@@ -2017,6 +1991,8 @@
         <type>Officer Academy</type>
         <isMilitary>true</isMilitary>
         <description>The Flight Academy of Graham is one of the few schools dedicated solely to training aerospace pilots and one of the few orbiting space academies. Over 2,000 pilots graduate from the academy every year.</description>
+        <factionDiscount>0</factionDiscount>
+        <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>Graham IV</locationSystem>
         <destructionYear>2767</destructionYear>
         <tuition>14875</tuition>
@@ -2053,7 +2029,7 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>DropShip Crew Graduate</qualification>
         <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration, Administration</curriculum>
@@ -2254,29 +2230,29 @@
         <tuition>7500</tuition>
         <durationDays>1200</durationDays>
         <facultySkill>6</facultySkill>
-        <educationLevelMin>High School</educationLevelMin>
+        <educationLevelMin>college</educationLevelMin>
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>3081</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3081</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -2295,25 +2271,25 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>2933</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -2371,37 +2347,37 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>DropShip Crew Graduate</qualification>
-        <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration, Administration</curriculum>
+        <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>JumpShip Crew Graduate</qualification>
-        <curriculum>Piloting/Spacecraft, Hyperspace Navigation, Tech/Vessel, Administration, Administration</curriculum>
+        <curriculum>Piloting/Spacecraft, Hyperspace Navigation, Tech/Vessel, Administration</curriculum>
         <qualificationStartYear>2470</qualificationStartYear>
         <qualification>WarShip Crew Graduate</qualification>
-        <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration, Administration</curriculum>
+        <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration</curriculum>
         <qualificationStartYear>2470</qualificationStartYear>
         <qualification>Medical Technician</qualification>
         <curriculum>Doctor, Administration</curriculum>
@@ -2506,19 +2482,19 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -2538,15 +2514,20 @@
         <curriculum>Negotiation, Leadership</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
+        <qualification>Teaching Graduate</qualification>
+        <curriculum>Training, Science/Psychology</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
     </academy>
     <academy>
         <name>Goshen BattleMek Academy</name>
         <type>Military Academy</type>
         <isMilitary>true</isMilitary>
         <description>The War College of Goshen, founded by Generals Alexander and Truscott, is a renowned private military academy in the Federated Suns, celebrated for its production of capable combat leaders.</description>
+        <factionDiscount>0</factionDiscount>
+        <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>Goshen</locationSystem>
         <constructionYear>2950</constructionYear>
         <closureYear>2960</closureYear>
@@ -2776,19 +2757,19 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>-1</baseAcademicSkillLevel>
     </academy>
@@ -2826,7 +2807,7 @@
         <tuition>4375</tuition>
         <durationDays>600</durationDays>
         <facultySkill>6</facultySkill>
-        <educationLevelMin>High School</educationLevelMin>
+        <educationLevelMin>College</educationLevelMin>
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
@@ -2862,7 +2843,7 @@
         <tuition>4375</tuition>
         <durationDays>600</durationDays>
         <facultySkill>6</facultySkill>
-        <educationLevelMin>High School</educationLevelMin>
+        <educationLevelMin>College</educationLevelMin>
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
@@ -2924,9 +2905,12 @@
         <curriculum>Doctor, Administration</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
+        <qualification>Teaching Graduate</qualification>
+        <curriculum>Training, Science/Psychology</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
     </academy>
     <academy>
         <name>Internal Security College</name>
@@ -2943,11 +2927,20 @@
         <educationLevelMin>High School</educationLevelMin>
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
-        <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <qualification>DEST Graduate (Armored)</qualification>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception, Demolitions</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
-        <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek</curriculum>
+        <qualification>DEST Graduate</qualification>
+        <curriculum>Small Arms, Melee Weapons, Stealth, Perception, Demolitions</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>ISF Informant</qualification>
+        <curriculum>Perception, Interrogation, Science/Psychology</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>ISF Agent</qualification>
+        <curriculum>Disguise, Acting, Forgery, Communications/Any</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>ISF Analyst</qualification>
+        <curriculum>Computers, Cryptography, Investigation</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>-1</baseAcademicSkillLevel>
     </academy>
@@ -2956,6 +2949,8 @@
         <type>Military Academy</type>
         <isMilitary>true</isMilitary>
         <description>The Irian Academy trains MekWarriors and is highly regarded among schools. Students undergo instruction in history and combat, including live fire training in the Radner Proving Grounds.</description>
+        <factionDiscount>0</factionDiscount>
+        <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>Irian</locationSystem>
         <constructionYear>3130</constructionYear>
         <tuition>4375</tuition>
@@ -2987,7 +2982,7 @@
         <curriculum>Negotiation, Leadership</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -3008,19 +3003,19 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>-1</baseAcademicSkillLevel>
     </academy>
@@ -3040,7 +3035,7 @@
         <curriculum>Doctor, Administration</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -3138,7 +3133,7 @@
         <curriculum>Tech/Vessel, Administration, Administration</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -3176,7 +3171,7 @@
         <curriculum>Tech/Vessel, Administration, Administration, Leadership</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>Senior Administrator</qualification>
-        <curriculum>Administration, Negotiation, Leadership</curriculum>
+        <curriculum>Administration, Negotiation, Leadership, Appraisal</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -3319,7 +3314,7 @@
         <tuition>4375</tuition>
         <durationDays>600</durationDays>
         <facultySkill>6</facultySkill>
-        <educationLevelMin>High School</educationLevelMin>
+        <educationLevelMin>College</educationLevelMin>
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
@@ -3344,28 +3339,28 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
-        <qualification>Armored Infantry Graduate</qualification>
+        <qualification>Armored Infantry Graduate, Perception</qualification>
         <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -3427,28 +3422,28 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -3525,11 +3520,11 @@
         <tuition>7656</tuition>
         <durationDays>600</durationDays>
         <facultySkill>6</facultySkill>
-        <educationLevelMin>High School</educationLevelMin>
+        <educationLevelMin>College</educationLevelMin>
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>DropShip Crew Graduate</qualification>
         <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration</curriculum>
@@ -3557,9 +3552,12 @@
         <educationLevelMax>Doctorate</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Diplomatic Relations</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
+        <qualification>Teaching Graduate</qualification>
+        <curriculum>Training, Science/Psychology</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
     </academy>
     <academy>
         <name>Lyons School of Combat Preparedness</name>
@@ -3575,22 +3573,22 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3058</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -3611,7 +3609,7 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>DropShip Crew Graduate</qualification>
         <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration</curriculum>
@@ -3692,19 +3690,19 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -3791,22 +3789,22 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>DropShip Crew Graduate</qualification>
         <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration</curriculum>
@@ -3855,25 +3853,25 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>3067</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3067</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -3960,7 +3958,7 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>DropShip Crew Graduate</qualification>
         <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration</curriculum>
@@ -4019,7 +4017,7 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>DropShip Crew Graduate</qualification>
         <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration</curriculum>
@@ -4078,25 +4076,22 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
-        <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
-        <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>DropShip Crew Graduate</qualification>
         <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration</curriculum>
@@ -4140,9 +4135,6 @@
         <qualification>Fighter Command Graduate</qualification>
         <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Tactics, Strategy, Leadership</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
-        <qualification>Armored Infantry Command Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek, Tactics, Strategy, Leadership</curriculum>
-        <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Command Graduate</qualification>
         <curriculum>Small Arms, Anti-Mek, Tactics, Strategy, Leadership, Artillery</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
@@ -4178,7 +4170,7 @@
         <qualification>Advanced Infantry Graduate</qualification>
         <curriculum>Small Arms, Anti-Mek</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
-        <baseAcademicSkillLevel>-1</baseAcademicSkillLevel>
+        <baseAcademicSkillLevel>-2</baseAcademicSkillLevel>
     </academy>
     <academy>
         <name>NAIS College of Military Science</name>
@@ -4339,7 +4331,7 @@
         <curriculum>Tech/Aero, Administration</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -4375,7 +4367,7 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>DropShip Crew Graduate</qualification>
         <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration</curriculum>
@@ -4393,7 +4385,7 @@
         <curriculum>Tech/Vessel, Administration</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -4413,28 +4405,28 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>DropShip Crew Graduate</qualification>
         <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration</curriculum>
@@ -4549,28 +4541,28 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Administration, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Administration, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Administration, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Administration, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Administration, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Administration, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Administration, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Administration, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Administration</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Administration, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek, Administration</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Administration, Perception</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Administration, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Administration, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Administration</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Administration, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -4608,7 +4600,10 @@
         <curriculum>Tech/Vessel, Administration</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>The College of Finance</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>The College of Education</qualification>
+        <curriculum>Training, Science/Psychology</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -4645,7 +4640,7 @@
         <curriculum>Tech/Vessel, Administration</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>The College of Finance</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -4665,19 +4660,19 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>-1</baseAcademicSkillLevel>
     </academy>
@@ -4699,7 +4694,10 @@
         <curriculum>Doctor, Administration</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>Teaching Graduate</qualification>
+        <curriculum>Training, Science/Psychology</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -4719,28 +4717,28 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>BattleMek Technician</qualification>
         <curriculum>Tech/Mek, Administration</curriculum>
@@ -4825,25 +4823,25 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <baseAcademicSkillLevel>-1</baseAcademicSkillLevel>
     </academy>
@@ -4980,28 +4978,28 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>300-Grade MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>300-Grade Armored Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>300-Grade VTOL Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>300-Grade Naval Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>300-Grade Fighter Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>300-Grade Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3058</qualificationStartYear>
         <qualification>300-Grade Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>300-Grade Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>300-Grade DropShip Graduate</qualification>
         <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration</curriculum>
@@ -5031,7 +5029,7 @@
         <curriculum>Tech/Vessel, Administration</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>300-Grade Administrator</qualification>
-        <curriculum>Administration</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -5101,7 +5099,7 @@
         <curriculum>Tech/Vessel, Administration, Leadership</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>400-Grade Administrator</qualification>
-        <curriculum>Administration, Negotiation, Leadership</curriculum>
+        <curriculum>Administration, Negotiation, Leadership, Appraisal</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -5141,7 +5139,7 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Etiquette &amp; Kosai-ho</qualification>
-        <curriculum>Negotiation, Leadership</curriculum>
+        <curriculum>Protocol/Any, Art/Poetry, Interest/Politics</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -5161,28 +5159,28 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, XP, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, XP, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, XP, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, XP, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, XP, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, XP, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, XP, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, XP, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, XP</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, XP, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek, XP</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, XP, Perception</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, XP, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, XP, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, XP</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, XP, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>DropShip Crew Graduate</qualification>
         <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration, XP</curriculum>
@@ -5199,6 +5197,8 @@
         <name>People's Reconstruction Effort University of Ashio</name>
         <type>University</type>
         <description>The University of Ashio aims to employ war-displaced educators and factory experts, creating a vast library and consultation group for post-war rebuilding. However, it faced opposition from the military and the ISF even before opening.</description>
+        <factionDiscount>0</factionDiscount>
+        <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>Dover</locationSystem>
         <constructionYear>2821</constructionYear>
         <destructionYear>2910</destructionYear>
@@ -5543,28 +5543,28 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -5651,9 +5651,11 @@
         <type>Military Academy</type>
         <isMilitary>true</isMilitary>
         <description>The Robinson Battle Academy, supported by the Sandoval family, rivals top institutions like the NAIS, producing loyal troops with a strong animosity towards the Draconis Combine. The curriculum emphasizes practical training and political indoctrination.</description>
+        <factionDiscount>0</factionDiscount>
+        <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>Robinson</locationSystem>
         <constructionYear>2780</constructionYear>
-        <closureYear>2781</closureYear>
+        <destructionYear>2787</destructionYear>
         <tuition>5688</tuition>
         <durationDays>1200</durationDays>
         <facultySkill>5</facultySkill>
@@ -5661,28 +5663,25 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
-        <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
-        <qualificationStartYear>3058</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>BattleMek Technician</qualification>
         <curriculum>Tech/Mek, Administration</curriculum>
@@ -5694,8 +5693,6 @@
         <curriculum>Tech/Aero, Administration</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>Armored Infantry Technician</qualification>
-        <curriculum>Tech/BattleArmor, Administration</curriculum>
-        <qualificationStartYear>3058</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
     <academy>
@@ -5703,9 +5700,11 @@
         <type>Officer Academy</type>
         <isMilitary>true</isMilitary>
         <description>The Robinson Battle Academy, supported by the Sandoval family, rivals top institutions like the NAIS, producing loyal troops with a strong animosity towards the Draconis Combine. The curriculum emphasizes practical training and political indoctrination.</description>
+        <factionDiscount>0</factionDiscount>
+        <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>Robinson</locationSystem>
         <constructionYear>2780</constructionYear>
-        <closureYear>2781</closureYear>
+        <destructionYear>2787</destructionYear>
         <tuition>11813</tuition>
         <durationDays>1200</durationDays>
         <facultySkill>5</facultySkill>
@@ -5727,9 +5726,6 @@
         <qualification>Fighter Command Graduate</qualification>
         <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Tactics, Strategy, Leadership</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
-        <qualification>Armored Infantry Command Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek, Tactics, Strategy, Leadership</curriculum>
-        <qualificationStartYear>3058</qualificationStartYear>
         <qualification>Advanced Infantry Command Graduate</qualification>
         <curriculum>Small Arms, Anti-Mek, Tactics, Strategy, Leadership, Artillery</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
@@ -5745,9 +5741,6 @@
         <qualification>Senior Aerospace Technician</qualification>
         <curriculum>Tech/Aero, Administration, Leadership</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
-        <qualification>Senior Armored Infantry Technician</qualification>
-        <curriculum>Tech/BattleArmor, Administration, Leadership</curriculum>
-        <qualificationStartYear>3058</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
     <academy>
@@ -5755,6 +5748,8 @@
         <type>Officer Academy</type>
         <isMilitary>true</isMilitary>
         <description>The Robinson Battle Academy, supported by the Sandoval family, rivals top institutions like the NAIS, shaping loyal troops with a deep-seated animosity towards the Draconis Combine. Its curriculum emphasizes practical training and political indoctrination. The academy was dismantled by Kurita forces in 2781 and has only recently been rebuilt.</description>
+        <factionDiscount>0</factionDiscount>
+        <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>Robinson</locationSystem>
         <constructionYear>2814</constructionYear>
         <destructionYear>2854</destructionYear>
@@ -5779,9 +5774,6 @@
         <qualification>Fighter Command Graduate</qualification>
         <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Tactics, Strategy, Leadership</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
-        <qualification>Armored Infantry Command Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek, Tactics, Strategy, Leadership</curriculum>
-        <qualificationStartYear>3058</qualificationStartYear>
         <qualification>Advanced Infantry Command Graduate</qualification>
         <curriculum>Small Arms, Anti-Mek, Tactics, Strategy, Leadership, Artillery</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
@@ -5797,9 +5789,6 @@
         <qualification>Senior Aerospace Technician</qualification>
         <curriculum>Tech/Aero, Administration, Leadership</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
-        <qualification>Senior Armored Infantry Technician</qualification>
-        <curriculum>Tech/BattleArmor, Administration, Leadership</curriculum>
-        <qualificationStartYear>3058</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
     <academy>
@@ -5807,6 +5796,8 @@
         <type>Officer Academy</type>
         <isMilitary>true</isMilitary>
         <description>The Robinson Battle Academy, supported by the Sandoval family, stands as a rival to top institutions like the NAIS, shaping loyal troops with a deep-seated animosity towards the Draconis Combine. Its curriculum emphasizes practical training and political indoctrination. The academy was rebuilt after being dismantled by Kurita forces in 2781, only to be destroyed again in 2854.</description>
+        <factionDiscount>0</factionDiscount>
+        <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>Robinson</locationSystem>
         <constructionYear>3020</constructionYear>
         <destructionYear>3062</destructionYear>
@@ -5859,6 +5850,8 @@
         <type>Officer Academy</type>
         <isMilitary>true</isMilitary>
         <description>The Robinson Battle Academy, supported by the Sandoval family, stands as a rival to top institutions like the NAIS, shaping loyal troops with a deep-seated animosity towards the Draconis Combine. Its curriculum emphasizes practical training and political indoctrination. Destroyed after being dismantled by Kurita forces in 2781 only to be destroyed again in 2854, the academy was rebuilt for a third time in 3062, following its destruction during the Jihad, this time in fortified underground bunkers.</description>
+        <factionDiscount>0</factionDiscount>
+        <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>Robinson</locationSystem>
         <constructionYear>3063</constructionYear>
         <destructionYear>3071</destructionYear>
@@ -5911,6 +5904,8 @@
         <type>Officer Academy</type>
         <isMilitary>true</isMilitary>
         <description>The Robinson Battle Academy, supported by the Sandoval family, stands as a rival to top institutions like the NAIS, shaping loyal troops with a deep-seated animosity towards the Draconis Combine. Its curriculum emphasizes practical training and political indoctrination. Destroyed after being dismantled by Kurita forces in 2781, it was rebuilt but destroyed again in 2854 and 3062. After a fourth destruction in 3071, it was rebuilt once more in 3079.</description>
+        <factionDiscount>0</factionDiscount>
+        <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>Robinson</locationSystem>
         <constructionYear>3079</constructionYear>
         <tuition>11813</tuition>
@@ -5962,6 +5957,8 @@
         <type>Military Academy</type>
         <isMilitary>true</isMilitary>
         <description>The Robinson Battle Academy, supported by the Sandoval family, rivals top institutions like the NAIS, shaping loyal troops with a deep-seated animosity towards the Draconis Combine. Its curriculum emphasizes practical training and political indoctrination. The academy was dismantled by Kurita forces in 2781 and has only recently been rebuilt.</description>
+        <factionDiscount>0</factionDiscount>
+        <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>Robinson</locationSystem>
         <constructionYear>2814</constructionYear>
         <destructionYear>2854</destructionYear>
@@ -5972,28 +5969,25 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
-        <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
-        <qualificationStartYear>3058</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>BattleMek Technician</qualification>
         <curriculum>Tech/Mek, Administration</curriculum>
@@ -6004,9 +5998,6 @@
         <qualification>Aerospace Technician</qualification>
         <curriculum>Tech/Aero, Administration</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
-        <qualification>Armored Infantry Technician</qualification>
-        <curriculum>Tech/BattleArmor, Administration</curriculum>
-        <qualificationStartYear>3058</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
     <academy>
@@ -6014,6 +6005,8 @@
         <type>Military Academy</type>
         <isMilitary>true</isMilitary>
         <description>The Robinson Battle Academy, supported by the Sandoval family, stands as a rival to top institutions like the NAIS, shaping loyal troops with a deep-seated animosity towards the Draconis Combine. Its curriculum emphasizes practical training and political indoctrination. The academy was rebuilt after being dismantled by Kurita forces in 2781, only to be destroyed again in 2854.</description>
+        <factionDiscount>0</factionDiscount>
+        <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>Robinson</locationSystem>
         <constructionYear>3020</constructionYear>
         <destructionYear>3062</destructionYear>
@@ -6024,28 +6017,28 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3058</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>BattleMek Technician</qualification>
         <curriculum>Tech/Mek, Administration</curriculum>
@@ -6066,6 +6059,8 @@
         <type>Military Academy</type>
         <isMilitary>true</isMilitary>
         <description>The Robinson Battle Academy, supported by the Sandoval family, stands as a rival to top institutions like the NAIS, shaping loyal troops with a deep-seated animosity towards the Draconis Combine. Its curriculum emphasizes practical training and political indoctrination. Destroyed after being dismantled by Kurita forces in 2781 only to be destroyed again in 2854, the academy was rebuilt for a third time in 3062, following its destruction during the Jihad, this time in fortified underground bunkers.</description>
+        <factionDiscount>0</factionDiscount>
+        <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>Robinson</locationSystem>
         <constructionYear>3063</constructionYear>
         <destructionYear>3071</destructionYear>
@@ -6076,28 +6071,28 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3058</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>BattleMek Technician</qualification>
         <curriculum>Tech/Mek, Administration</curriculum>
@@ -6118,6 +6113,8 @@
         <type>Military Academy</type>
         <isMilitary>true</isMilitary>
         <description>The Robinson Battle Academy, supported by the Sandoval family, stands as a rival to top institutions like the NAIS, shaping loyal troops with a deep-seated animosity towards the Draconis Combine. Its curriculum emphasizes practical training and political indoctrination. Destroyed after being dismantled by Kurita forces in 2781, it was rebuilt but destroyed again in 2854 and 3062. After a fourth destruction in 3071, it was rebuilt once more in 3079.</description>
+        <factionDiscount>0</factionDiscount>
+        <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>Robinson</locationSystem>
         <constructionYear>3079</constructionYear>
         <tuition>5688</tuition>
@@ -6127,28 +6124,28 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3058</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>BattleMek Technician</qualification>
         <curriculum>Tech/Mek, Administration</curriculum>
@@ -6180,25 +6177,25 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Astech, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Astech, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Astech, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Astech, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Astech, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Astech, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Astech, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Astech, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Astech</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Astech, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek, Astech</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Astech, Perception</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Astech, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Astech, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -6285,6 +6282,8 @@
         <type>Officer Academy</type>
         <isMilitary>true</isMilitary>
         <description>Sakhara Academy is known for its rigorous training. Despite declining enrollment, it maintains high standards, graduating about eighty students annually in various military disciplines. Supported by graduates donations and high tuition, Sakhara remains exclusive, primarily serving the affluent.</description>
+        <factionDiscount>0</factionDiscount>
+        <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>Sakhara V</locationSystem>
         <constructionYear>2613</constructionYear>
         <tuition>56250</tuition>
@@ -6378,28 +6377,28 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>DropShip Crew Graduate</qualification>
         <curriculum>Piloting/Spacecraft, Gunnery/Spacecraft, Tech/Vessel, Administration</curriculum>
@@ -6509,28 +6508,28 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -6549,28 +6548,28 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3058</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -6590,28 +6589,28 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -6731,7 +6730,6 @@
     <academy>
         <name>Sian University (Civilian)</name>
         <type>University</type>
-        <isMilitary>true</isMilitary>
         <description>Sian University offers a diverse array of courses, particularly in philosophy, political science, economics, and interstellar relations. Enrollment is open to all Capellan citizens, with a strong emphasis on achieving academic excellence.</description>
         <factionDiscount>0</factionDiscount>
         <isFactionRestricted>true</isFactionRestricted>
@@ -6747,7 +6745,10 @@
         <curriculum>Doctor, Administration</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Interstellar Relations</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>Teaching Graduate</qualification>
+        <curriculum>Training, Science/Psychology</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -6767,28 +6768,28 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>Medical Technician</qualification>
         <curriculum>Doctor, Administration</curriculum>
@@ -6806,7 +6807,7 @@
         <curriculum>Tech/BattleArmor, Administration</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -6910,10 +6911,10 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>SLDF Advanced Tactics Operative</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek, Small Arms, Tech/BattleArmor, Administration, Tactics, Strategy, Leadership</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Small Arms, Tech/BattleArmor, Administration, Tactics, Strategy, Leadership, Sensor Operations</curriculum>
         <qualificationStartYear>2718</qualificationStartYear>
         <qualification>SLDF Special Forces Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Tactics, Strategy, Leadership</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Tactics, Strategy, Leadership, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>1</baseAcademicSkillLevel>
     </academy>
@@ -7063,28 +7064,28 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Strategy</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Strategy, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Strategy</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Strategy, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Strategy</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Strategy, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Strategy</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Strategy, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Strategy</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Strategy, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek, Strategy</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Strategy, Perception</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Strategy</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Strategy, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Strategy</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Strategy, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -7262,7 +7263,7 @@
         <curriculum>Doctor, Administration</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -7409,6 +7410,8 @@
         <type>Military Academy</type>
         <isMilitary>true</isMilitary>
         <description>The War College of Goshen, initially established as the Goshen BattleMek Academy, is a prestigious private military academy in the Federated Suns. Situated on Goshen's Tiberian continent, the college expanded its curriculum within a decade to incorporate aerospace programs, prompting a name change to reflect its comprehensive military training offerings.</description>
+        <factionDiscount>0</factionDiscount>
+        <isFactionRestricted>true</isFactionRestricted>
         <locationSystem>Goshen</locationSystem>
         <constructionYear>2960</constructionYear>
         <tuition>8750</tuition>
@@ -7441,28 +7444,28 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
-        <curriculum>Piloting/Aerospace, Gunnery/Aerospace</curriculum>
+        <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>BattleMek Technician</qualification>
         <curriculum>Tech/Mek, Administration</curriculum>
@@ -7547,25 +7550,22 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
-        <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
-        <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>-1</baseAcademicSkillLevel>
     </academy>
@@ -7599,9 +7599,6 @@
         <qualification>Fighter Command Graduate</qualification>
         <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Tactics, Strategy, Leadership</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
-        <qualification>Armored Infantry Command Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek, Tactics, Strategy, Leadership</curriculum>
-        <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Command Graduate</qualification>
         <curriculum>Small Arms, Anti-Mek, Tactics, Strategy, Leadership, Artillery</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
@@ -7623,25 +7620,25 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Graduate</qualification>
-        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery</curriculum>
+        <curriculum>Piloting/Mek, Gunnery/Mek, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Cavalry Graduate</qualification>
-        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Ground Vehicle, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Air Cavalry Graduate</qualification>
-        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/VTOL, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Naval Crew Graduate</qualification>
-        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery</curriculum>
+        <curriculum>Piloting/Naval, Gunnery/Vehicle, Artillery, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Aircraft Pilot Graduate</qualification>
-        <curriculum>Piloting/Aircraft, Gunnery/Aircraft</curriculum>
+        <curriculum>Piloting/Aircraft, Gunnery/Aircraft, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Advanced Infantry Graduate</qualification>
-        <curriculum>Small Arms, Anti-Mek, Artillery</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Artillery, Perception</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>-1</baseAcademicSkillLevel>
     </academy>
@@ -7798,7 +7795,10 @@
         <curriculum>Doctor, Administration</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>Teaching Graduate</qualification>
+        <curriculum>Training, Science/Psychology</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -7818,7 +7818,10 @@
         <curriculum>Doctor, Administration</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>Teaching Graduate</qualification>
+        <curriculum>Training, Science/Psychology</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -7838,7 +7841,10 @@
         <curriculum>Doctor, Administration</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>Teaching Graduate</qualification>
+        <curriculum>Training, Science/Psychology</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -7858,7 +7864,10 @@
         <curriculum>Doctor, Administration</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>Teaching Graduate</qualification>
+        <curriculum>Training, Science/Psychology</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -7879,7 +7888,10 @@
         <curriculum>Doctor, Administration</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>Teaching Graduate</qualification>
+        <curriculum>Training, Science/Psychology</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -7899,7 +7911,10 @@
         <curriculum>Doctor, Administration</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>Teaching Graduate</qualification>
+        <curriculum>Training, Science/Psychology</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -7916,7 +7931,10 @@
         <educationLevelMax>Doctorate</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>Teaching Graduate</qualification>
+        <curriculum>Training, Science/Psychology</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -7936,7 +7954,10 @@
         <curriculum>Doctor, Administration</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>Teaching Graduate</qualification>
+        <curriculum>Training, Science/Psychology</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -7996,7 +8017,10 @@
         <curriculum>Doctor, Administration</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>Teaching Graduate</qualification>
+        <curriculum>Training, Science/Psychology</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -8016,7 +8040,10 @@
         <curriculum>Doctor, Administration</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>Teaching Graduate</qualification>
+        <curriculum>Training, Science/Psychology</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -8038,7 +8065,10 @@
         <curriculum>Doctor, Administration</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>Teaching Graduate</qualification>
+        <curriculum>Training, Science/Psychology</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -8055,7 +8085,10 @@
         <educationLevelMax>Doctorate</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>Teaching Graduate</qualification>
+        <curriculum>Training, Science/Psychology</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -8074,7 +8107,10 @@
         <curriculum>Doctor, Administration</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>Teaching Graduate</qualification>
+        <curriculum>Training, Science/Psychology</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -8290,7 +8326,7 @@
         <curriculum>Tech/Aero, Administration, Astech</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>Junior Administrator</qualification>
-        <curriculum>Administration, Negotiation, Astech</curriculum>
+        <curriculum>Administration, Negotiation, Astech, Appraisal</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -8313,9 +8349,6 @@
         <qualification>MekWarrior Graduate</qualification>
         <curriculum>Piloting/Mek, Gunnery/Mek, Leadership</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
-        <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek, Leadership</curriculum>
-        <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
         <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Leadership</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
@@ -8340,9 +8373,6 @@
         <qualification>MekWarrior Graduate</qualification>
         <curriculum>Piloting/Mek, Gunnery/Mek, Leadership</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
-        <qualification>Armored Infantry Graduate</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek, Leadership</curriculum>
-        <qualificationStartYear>3052</qualificationStartYear>
         <qualification>Aerospace Graduate</qualification>
         <curriculum>Piloting/Aerospace, Gunnery/Aerospace, Leadership</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>

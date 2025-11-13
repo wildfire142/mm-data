@@ -21,7 +21,7 @@
     <academy>
         <name>Unit Creche</name>
         <isPrepSchool>true</isPrepSchool>
-        <description>A unit creche serves as a communal living and training space for the youngest children of mercenaries. While the creche fosters a strong sense of community it fails to provide the level of education afforded to more formal settings.</description>
+        <description>A unit creche serves as a communal living and training space for the youngest children of mercenaries. While the creche fosters a strong sense of community, it fails to provide the level of education afforded to more formal settings.</description>
         <isHomeSchool>true</isHomeSchool>
         <locationSystem>Terra</locationSystem>
         <constructionYear>2300</constructionYear>
@@ -58,7 +58,7 @@
         <name>Apprenticeship</name>
         <isMilitary>true</isMilitary>
         <isPrepSchool>true</isPrepSchool>
-        <description>An apprenticeship is a hands-on training program where young recruits learn from experienced personnel. Apprentices start with basic skills, and gradually take on more responsibilities. This mentorship-based training emphasizes practical experience, but lacks any formal qualifications. Furthermore, apprenticing to an active military unit has its dangers.</description>
+        <description>An apprenticeship is a hands-on training program where young recruits learn from experienced personnel. Apprentices start with basic skills and gradually take on more responsibilities. This mentorship-based training emphasizes practical experience, but lacks any formal qualifications. Furthermore, apprenticing to an active military unit has its dangers.</description>
         <isHomeSchool>true</isHomeSchool>
         <locationSystem>Terra</locationSystem>
         <constructionYear>2300</constructionYear>
@@ -98,7 +98,7 @@
         <curriculum>Astech, Tech/Vessel, Administration</curriculum>
         <qualificationStartYear>2470</qualificationStartYear>
         <qualification>Administrative Apprenticeship</qualification>
-        <curriculum>Administration</curriculum>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Medical Apprenticeship</qualification>
         <curriculum>MedTech, Doctor, Administration</curriculum>
@@ -141,7 +141,7 @@
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
     <academy>
-        <name>In-House Boot Camp</name>
+        <name>In-House Bootcamp</name>
         <type>Basic Training</type>
         <isMilitary>true</isMilitary>
         <description>In-house training is usually conducted by the unit's more experienced members. This training ensures that new members are well-prepared, cohesive, and loyal to the unit's unique culture and combat style.</description>
@@ -189,6 +189,12 @@
         <qualification>Basic Black Naval Training</qualification>
         <curriculum>Gunnery/Spacecraft, Piloting/Spacecraft</curriculum>
         <qualificationStartYear>2470</qualificationStartYear>
+        <qualification>Infantry Scout Training</qualification>
+        <curriculum>Small Arms, Perception, Stealth, Survival/Any</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>Artillery Training</qualification>
+        <curriculum>Small Arms, Artillery</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Basic Battle Armor Training</qualification>
         <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
         <qualificationStartYear>3050</qualificationStartYear>
@@ -209,7 +215,7 @@
         <facultySkill>9</facultySkill>
         <ageMin>16</ageMin>
         <qualification>In-House NCO Graduate</qualification>
-        <curriculum>Leadership</curriculum>
+        <curriculum>Leadership, Training</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -227,7 +233,7 @@
         <facultySkill>9</facultySkill>
         <ageMin>16</ageMin>
         <qualification>In-House Warrant Officer Graduate</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Protocols/Any</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -245,10 +251,10 @@
         <facultySkill>9</facultySkill>
         <ageMin>16</ageMin>
         <qualification>In-House Field Officer Graduate</qualification>
-        <curriculum>Leadership, Tactics</curriculum>
+        <curriculum>Leadership, Tactics, Protocols/Any</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>In-House Command Officer Graduate</qualification>
-        <curriculum>Leadership, Strategy</curriculum>
+        <curriculum>Leadership, Strategy, Science/Military</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>

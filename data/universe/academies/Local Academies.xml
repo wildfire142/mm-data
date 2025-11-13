@@ -101,7 +101,13 @@
         <ageMin>10</ageMin>
         <ageMax>16</ageMax>
         <qualification>General Education</qualification>
-        <curriculum>XP, Leadership</curriculum>
+        <curriculum>XP, Protocols/Any</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>Boys´ Education</qualification>
+        <curriculum>Interest/Politics, Protocols/Any</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>Girls´ Education</qualification>
+        <curriculum>Art/Dancing, Protocols/Any</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -120,7 +126,7 @@
         <ageMin>10</ageMin>
         <ageMax>16</ageMax>
         <qualification>General Education</qualification>
-        <curriculum>Small Arms, Leadership</curriculum>
+        <curriculum>Running, Interest/Military</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
     </academy>
     <academy>
@@ -163,7 +169,7 @@
         <ageMin>16</ageMin>
         <durationDays>150</durationDays>
         <qualification>General Education</qualification>
-        <curriculum>XP</curriculum>
+        <curriculum>XP, Language/Any</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
@@ -180,46 +186,49 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>General Studies</qualification>
-        <curriculum>XP</curriculum>
+        <curriculum>Interest/Other</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>Sure, here are the elements sorted alphabetically, keeping the tags in the same order:
         <qualification>Biology</qualification>
-        <curriculum>XP</curriculum>
+        <curriculum>Science/Biology</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Business Studies</qualification>
-        <curriculum>XP</curriculum>
+        <curriculum>Interest/Economics</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Creative Writing</qualification>
-        <curriculum>XP</curriculum>
+        <curriculum>Art/Writing</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Galactic Anthropology</qualification>
-        <curriculum>XP</curriculum>
+        <curriculum>Languages/Any</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>General Sciences</qualification>
-        <curriculum>XP</curriculum>
+        <curriculum>Science/Other</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Interstellar History</qualification>
-        <curriculum>XP</curriculum>
+        <curriculum>Interest/History</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Journalism</qualification>
-        <curriculum>XP</curriculum>
+        <curriculum>Investigation</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Law &amp; Justice</qualification>
-        <curriculum>XP</curriculum>
+        <curriculum>Interest/Law</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Literature</qualification>
-        <curriculum>XP</curriculum>
+        <curriculum>Interest/Literature</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Mathematics</qualification>
-        <curriculum>XP</curriculum>
+        <curriculum>Science/Mathematics</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Political Science</qualification>
-        <curriculum>XP</curriculum>
+        <curriculum>Interest/Politics</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Social Sciences</qualification>
-        <curriculum>XP</curriculum>
+        <curriculum>Science/Psychology</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>Teaching</qualification>
+        <curriculum>Training</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Visual &amp; Performing Arts</qualification>
-        <curriculum>XP</curriculum>
+        <curriculum>Acting</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
     </academy>
     <academy>
@@ -262,13 +271,19 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Vocational Administrator</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Career/Any</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Vocational Logistician</qualification>
-        <curriculum>Administration</curriculum>
+        <curriculum>Administration, Appraisal, Career/Any</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Nursing School</qualification>
-        <curriculum>MedTech</curriculum>
+        <curriculum>MedTech, Career/Any</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>Security Expert</qualification>
+        <curriculum>Security Systems/Electronic, Security Systems/Mechanical, Career/Any</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>IT Expert</qualification>
+        <curriculum>Computers, Communications/Any, Career/Any</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
     </academy>
     <academy>
@@ -299,18 +314,33 @@
         <qualification>Black Naval Technologies</qualification>
         <curriculum>Tech/Vessel, Administration</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
-        <qualification>Advanced Systems &amp; Technology</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <qualification>Advanced Administration</qualification>
+        <curriculum>Administration, Negotiation, Appraisal</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
-        <qualification>Applied Economics</qualification>
-        <curriculum>Administration</curriculum>
+        <qualification>Applied Management</qualification>
+        <curriculum>Administration, Protocols/Any, Career/Any</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced Medicine</qualification>
         <curriculum>Doctor, Administration</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Applied Astrophysics</qualification>
-        <curriculum>Hyperspace Navigation</curriculum>
+        <curriculum>Hyperspace Navigation, Science/Physics</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
+    </academy>
+    <academy>
+        <name>Diploma Mill</name>
+        <description>This rather questionable institution offers a quick, but far from cheap, way for anyone to gain academic recognition (of sorts) without spending the time and effort of actually earning it.</description>
+        <isLocal>true</isLocal>
+        <locationSystem>Terra</locationSystem>
+        <constructionYear>2300</constructionYear>
+        <tuition>25000</tuition>
+        <durationDays>70</durationDays>
+        <educationLevelMin>High School</educationLevelMin>
+        <educationLevelMax>Doctorate</educationLevelMax>
+        <ageMin>16</ageMin>
+        <qualification>Indeterminate Studies</qualification>
+        <curriculum>Interest/Other</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
     </academy>
     <academy>
         <name>Police Academy</name>
@@ -324,10 +354,10 @@
         <educationLevelMax>High School</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Field Officer Training</qualification>
-        <curriculum>Small Arms</curriculum>
+        <curriculum>Small Arms, Interest/Law, Interrogation</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Administrative Officer Training</qualification>
-        <curriculum>Administration</curriculum>
+        <curriculum>Administration, Interest/Law, Protocols/Any</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
     </academy>
     <academy>
@@ -390,28 +420,31 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>MekWarrior Academy</qualification>
-        <curriculum>Gunnery/Mek, Piloting/Mek</curriculum>
+        <curriculum>Gunnery/Mek, Piloting/Mek, Sensor Operations</curriculum>
         <qualificationStartYear>2500</qualificationStartYear>
         <qualification>Mechanized Academy</qualification>
-        <curriculum>Gunnery/Vehicle, Piloting/Ground Vehicle</curriculum>
+        <curriculum>Gunnery/Vehicle, Piloting/Ground Vehicle, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Flight Academy</qualification>
-        <curriculum>Gunnery/Aerospace, Piloting/Aerospace</curriculum>
+        <curriculum>Gunnery/Aerospace, Piloting/Aerospace, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>Black Naval Academy</qualification>
-        <curriculum>Gunnery/Spacecraft, Piloting/Spacecraft</curriculum>
+        <curriculum>Gunnery/Spacecraft, Piloting/Spacecraft, Sensor Operations</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>Battle Armor Academy</qualification>
-        <curriculum>Gunnery/BattleArmor, Anti-Mek</curriculum>
+        <curriculum>Gunnery/BattleArmor, Anti-Mek, Perception</curriculum>
         <qualificationStartYear>3058</qualificationStartYear>
         <qualification>Artillery College</qualification>
         <curriculum>Small Arms, Artillery</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Advanced War Fighting Academy</qualification>
-        <curriculum>Small Arms, Anti-Mek</curriculum>
+        <curriculum>Small Arms, Anti-Mek, Perception</curriculum>
+        <qualificationStartYear>2300</qualificationStartYear>
+        <qualification>Infantry Scout</qualification>
+        <curriculum>Small Arms, Perception, Stealth, Survival/Any</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Naval Academy</qualification>
-        <curriculum>Gunnery/Vehicle, Piloting/Naval</curriculum>
+        <curriculum>Gunnery/Vehicle, Piloting/Naval, Sensor Operations</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
     </academy>
     <academy>
@@ -428,9 +461,9 @@
         <educationLevelMax>High School</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>NCO Graduate</qualification>
-        <curriculum>Leadership</curriculum>
+        <curriculum>Leadership, Training</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
-        <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
+        <baseAcademicSkillLevel>-1</baseAcademicSkillLevel>
     </academy>
     <academy>
         <name>Warrant Officer Candidate School</name>
@@ -446,7 +479,7 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Warrant Officer Graduate</qualification>
-        <curriculum>Administration, Negotiation</curriculum>
+        <curriculum>Administration, Negotiation, Protocols/Any</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
     </academy>
     <academy>
@@ -463,10 +496,10 @@
         <educationLevelMax>College</educationLevelMax>
         <ageMin>16</ageMin>
         <qualification>Field Officer Graduate</qualification>
-        <curriculum>Leadership, Tactics</curriculum>
+        <curriculum>Leadership, Tactics, Protocols/Any</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
         <qualification>Command Officer Graduate</qualification>
-        <curriculum>Leadership, Strategy</curriculum>
+        <curriculum>Leadership, Strategy, Science/Military</curriculum>
         <qualificationStartYear>2300</qualificationStartYear>
     </academy>
 </academies>
