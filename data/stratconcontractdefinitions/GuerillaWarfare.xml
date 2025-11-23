@@ -58,7 +58,6 @@
                 <objectiveScenario>Intercept Engagement.xml</objectiveScenario>
                 <objectiveScenario>Recon Evasion.xml</objectiveScenario>
                 <objectiveScenario>VIP Ambush.xml</objectiveScenario>
-                <objectiveScenario>Skirmish.xml</objectiveScenario>
                 <objectiveScenario>Tactical Withdrawal.xml</objectiveScenario>
             </objectiveScenarios>
         </objectiveParameter>

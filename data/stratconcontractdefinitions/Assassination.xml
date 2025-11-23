@@ -42,6 +42,7 @@
             <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveCount>-2.0</objectiveCount>
             <objectiveScenarios>
+                <objectiveScenario>VIP Ambush.xml</objectiveScenario>
                 <objectiveScenario>Frontier Assassination.xml</objectiveScenario>
                 <objectiveScenario>Assassination.xml</objectiveScenario>
             </objectiveScenarios>

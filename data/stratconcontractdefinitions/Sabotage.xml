@@ -54,6 +54,7 @@
             <objectiveCount>-1.0</objectiveCount>
             <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveScenarios>
+                <objectiveScenario>VIP Ambush.xml</objectiveScenario>
                 <objectiveScenario>Deep Raid.xml</objectiveScenario>
                 <objectiveScenario>Deep Raid Defense.xml</objectiveScenario>
             </objectiveScenarios>
