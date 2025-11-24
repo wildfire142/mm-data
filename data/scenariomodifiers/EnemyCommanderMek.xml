@@ -42,7 +42,7 @@
         <generationMethod>3</generationMethod>
         <generationOrder>1</generationOrder>
         <maxWeightClass>4</maxWeightClass>
-        <minWeightClass>2</minWeightClass>
+        <minWeightClass>3</minWeightClass>
         <retreatThreshold>75</retreatThreshold>
         <startingAltitude>0</startingAltitude>
         <objectiveLinkedForces>

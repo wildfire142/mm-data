@@ -42,7 +42,8 @@
         <forceName>Trainees</forceName>
         <generationMethod>3</generationMethod>
         <generationOrder>1</generationOrder>
-        <maxWeightClass>1</maxWeightClass>
+        <minWeightClass>2</minWeightClass>
+        <maxWeightClass>2</maxWeightClass>
         <retreatThreshold>0</retreatThreshold>
         <startingAltitude>0</startingAltitude>
         <objectiveLinkedForces>
