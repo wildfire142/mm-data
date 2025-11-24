@@ -1930,6 +1930,54 @@ This penalty is removed once the character acquires level 4 in the Language/Any 
         <weight>1</weight>
         <skillPrereq />
     </ability>
+    <ability>
+        <lookupName>flaw_vaccine_dodger</lookupName>
+        <displayName>Vaccine Dodger (Unofficial)</displayName>
+        <desc><![CDATA[The character we refuse any and all vaccination attempts.
+
+This Flaw only has a mechanical effect when using Alternate Advanced Medical.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>true</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+    </ability>
+    <ability>
+        <lookupName>flaw_super_spreader</lookupName>
+        <displayName>Super Spreader (Unofficial)</displayName>
+        <desc><![CDATA[If a contagious disease is active in your campaign, the presence of this character triples the chance of it spreading.
+
+The effects from multiple Super Spreaders do not stack.
+
+This Flaw only has a mechanical effect when using Alternate Advanced Medical.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>true</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+    </ability>
+    <ability>
+        <lookupName>flaw_poor_immune_system</lookupName>
+        <displayName>Compromised Immune System (Unofficial)</displayName>
+        <desc><![CDATA[If unvaccinated, the chances of this character being infected with a contagious disease triples.
+
+If a character with the Super Spreader Flaw is present in the campaign, the effects stack, increasing the infection chance to 600%.
+
+This Flaw only has a mechanical effect when using Alternate Advanced Medical.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>true</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+    </ability>
+    <ability>
+        <lookupName>unofficial_adaptive_immunity</lookupName>
+        <displayName>Adaptive Immunity (Unofficial)</displayName>
+        <desc><![CDATA[This character is immune to contagious diseases.
+
+This Flaw only has a mechanical effect when using Alternate Advanced Medical.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>true</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+    </ability>
 
     <!-- OTHER SPA -->
     <ability>
